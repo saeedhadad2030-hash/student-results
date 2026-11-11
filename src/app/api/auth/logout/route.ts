@@ -5,3 +5,4 @@ export async function POST() {
   clearAuthCookie(STUDENT_COOKIE_NAME);
   return NextResponse.json({ success: true });
 }
+

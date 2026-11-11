@@ -16,3 +16,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Failed to update publication status' }, { status: 500 });
   }
 }
+

@@ -145,3 +145,4 @@ You can test with any of the following verified students:
 - **Brute Force Protection**: IP-based rate limiter throttles excessive failed login attempts (maximum 5 attempts per minute).
 - **Zero Sensitive Data Leakage**: National IDs, Arabic matching notes, and administrative fields are kept private on the server and never sent to student browser sessions.
 - **Full Print Optimization**: Clean print stylesheet (`@media print`) enables parents to print official, watermark-ready transcripts directly from their browser.
+

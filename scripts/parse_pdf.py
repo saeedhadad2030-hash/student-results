@@ -282,3 +282,4 @@ print(f"Year 1 parsed: {len(parsed_results['Year 1'])}")
 print(f"Year 2 parsed: {len(parsed_results['Year 2'])}")
 print(f"Year 3 parsed: {len(parsed_results['Year 3'])}")
 print(f"Year 4 parsed: {len(parsed_results['Year 4'])}")
+

@@ -192,3 +192,4 @@ with open("scripts/excel_students.json", "w", encoding="utf-8") as f:
     json.dump(excel_data, f, ensure_ascii=False, indent=2)
 
 print("Saved excel_students.json successfully.")
+

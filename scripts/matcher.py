@@ -298,3 +298,4 @@ for year, rep in matching_report.items():
         print(f"  Unmatched Excel in {year}:")
         for u in rep['unmatched_excel']:
             print(f"    - #{u['id']}: {u['name_ar']} (Status: {u.get('status', 'active')})")
+
