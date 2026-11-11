@@ -1,0 +1,3794 @@
+{
+  "Year 1": {
+    "excel_count": 48,
+    "pdf_count": 48,
+    "matches": [
+      {
+        "roll_no": 1,
+        "name_en": "Ahmed Mohamed Al-Sayed Mohamed Al-Sayed Hassan",
+        "name_ar": "احمد محمد السيد محمد السيد حسن",
+        "national_id": "32002261204511",
+        "login_code": "ips@04511",
+        "confidence": 0.75,
+        "excel_id": 2,
+        "status": "matched"
+      },
+      {
+        "roll_no": 2,
+        "name_en": "Asser Ahmed Joudah Awad Allah Abdel Tawab",
+        "name_ar": "اسر احمد جودة عوض الله عبدالتواب",
+        "national_id": "31912041501577",
+        "login_code": "ips@01577",
+        "confidence": 0.43,
+        "excel_id": 4,
+        "status": "matched"
+      },
+      {
+        "roll_no": 4,
+        "name_en": "Bilal Masad Sami Ibrahim Dargham",
+        "name_ar": "بلال مسعد سامى إبراهيم ضرغام",
+        "national_id": "32007051100057",
+        "login_code": "ips@00057",
+        "confidence": 0.6,
+        "excel_id": 7,
+        "status": "matched"
+      },
+      {
+        "roll_no": 5,
+        "name_en": "Hamza Ahmed Mohamed Magdy Ali El-Sayed Abdel-Mawla",
+        "name_ar": "حمزة أحمد محمد مجدي علي السيد عبدالمولى",
+        "national_id": "32005261100715",
+        "login_code": "ips@00715",
+        "confidence": 0.56,
+        "excel_id": 9,
+        "status": "matched"
+      },
+      {
+        "roll_no": 6,
+        "name_en": "Hamza Mohamed Mahmoud Mohamed Ward",
+        "name_ar": "حمزة محمد محمود محمد ورد",
+        "national_id": "31912021100797",
+        "login_code": "ips@00797",
+        "confidence": 0.8,
+        "excel_id": 10,
+        "status": "matched"
+      },
+      {
+        "roll_no": 7,
+        "name_en": "Zain Mahmoud Mounir Ahmed Al-Atabani",
+        "name_ar": "زين محمود منير أحمد العتباني",
+        "national_id": "32002021100255",
+        "login_code": "ips@00255",
+        "confidence": 0.5,
+        "excel_id": 11,
+        "status": "matched"
+      },
+      {
+        "roll_no": 8,
+        "name_en": "Sajid Mohamed Awad Ahmed Osman",
+        "name_ar": "ليان أحمد أحمد محمد أحمد عبدالعزيز",
+        "national_id": "32005071100824",
+        "login_code": "ips@00824",
+        "confidence": 0.67,
+        "excel_id": 40,
+        "status": "matched"
+      },
+      {
+        "roll_no": 11,
+        "name_en": "Murad Ahmed Yousri Ibrahim Mohammad Al-Shabouri",
+        "name_ar": "مراد احمد يسري إبراهيم محمد الشابوري",
+        "national_id": "32008271200237",
+        "login_code": "ips@00237",
+        "confidence": 0.43,
+        "excel_id": 20,
+        "status": "matched"
+      },
+      {
+        "roll_no": 13,
+        "name_en": "Younes Mohammad Hassan Mohammad Samisam",
+        "name_ar": "يونس محمد حسن محمد سميسم",
+        "national_id": "31910021100239",
+        "login_code": "ips@00239",
+        "confidence": 0.4,
+        "excel_id": 23,
+        "status": "matched"
+      },
+      {
+        "roll_no": 14,
+        "name_en": "Elin Islam Mohammad Al-Sayed Abdel Jawad",
+        "name_ar": "الين اسلام محمد السيد عبد الجواد",
+        "national_id": "32007031100247",
+        "login_code": "ips@00247",
+        "confidence": 0.43,
+        "excel_id": 25,
+        "status": "matched"
+      },
+      {
+        "roll_no": 15,
+        "name_en": "Dalida Mohamed Abdulhamid Hamid Awad Ghorab",
+        "name_ar": "داليدا محمد عبدالحميد حامد عوض غراب",
+        "national_id": "32005021100564",
+        "login_code": "ips@00564",
+        "confidence": 0.5,
+        "excel_id": 30,
+        "status": "matched"
+      },
+      {
+        "roll_no": 16,
+        "name_en": "Dana Mahmoud Mohammed Ahmed Salem Al-Masri",
+        "name_ar": "دانه محمود محمد احمد سالم المصري",
+        "national_id": "32002241100485",
+        "login_code": "ips@00485",
+        "confidence": 0.57,
+        "excel_id": 31,
+        "status": "matched"
+      },
+      {
+        "roll_no": 17,
+        "name_en": "Sara Mohammed Abdel Sattar Mahmoud Bdeir",
+        "name_ar": "ساره محمد عبد الستار محمود بدير",
+        "national_id": "31911081100404",
+        "login_code": "ips@00404",
+        "confidence": 0.67,
+        "excel_id": 32,
+        "status": "matched"
+      },
+      {
+        "roll_no": 18,
+        "name_en": "Celia Islam Ahmed Ahmed Shabrah",
+        "name_ar": "سيليا إسلام أحمد أحمد شباره",
+        "national_id": "31910041100464",
+        "login_code": "ips@00464",
+        "confidence": 0.6,
+        "excel_id": 34,
+        "status": "matched"
+      },
+      {
+        "roll_no": 19,
+        "name_en": "Alia Ahmed Sami Omar Madkour",
+        "name_ar": "عاليا أحمد سامي عمر مدكور",
+        "national_id": "32004221101046",
+        "login_code": "ips@01046",
+        "confidence": 0.8,
+        "excel_id": 35,
+        "status": "matched"
+      },
+      {
+        "roll_no": 20,
+        "name_en": "Fayrouz Ahmed Gamal Atiyah Hanifah",
+        "name_ar": "يسرا احمد جمال محمد العبد",
+        "national_id": "32006111100365",
+        "login_code": "ips@00365",
+        "confidence": 0.4,
+        "excel_id": 47,
+        "status": "matched"
+      },
+      {
+        "roll_no": 22,
+        "name_en": "Lana Karim Ahmed Fawzi Mohammed Al-Damak",
+        "name_ar": "لانا كريم احمد فوزي محمد الدمك",
+        "national_id": "32010011101965",
+        "login_code": "ips@01965",
+        "confidence": 0.71,
+        "excel_id": 39,
+        "status": "matched"
+      },
+      {
+        "roll_no": 25,
+        "name_en": "Yosra Ahmed Saad Ahmed Al-Sayed Hassan Rifai",
+        "name_ar": "يسرا أحمد سعد أحمد السيد حسن رفاعي",
+        "national_id": "31910131100323",
+        "login_code": "ips@00323",
+        "confidence": 0.62,
+        "excel_id": 48,
+        "status": "matched"
+      },
+      {
+        "roll_no": 26,
+        "name_en": "Ibrahim Abdu Ibrahim Abdul Qader Hamid Abu Al-Ata",
+        "name_ar": "ابراهيم عبده ابراهيم عبد القادر حامد ابو العطا",
+        "national_id": "32006091202034",
+        "login_code": "ips@02034",
+        "confidence": 0.44,
+        "excel_id": 1,
+        "status": "matched"
+      },
+      {
+        "roll_no": 27,
+        "name_en": "Adam Amr Salah Al-Din Muhammad Barakah",
+        "name_ar": "ادم عمرو صلاح الدين محمد بركه",
+        "national_id": "31909241101076",
+        "login_code": "ips@01076",
+        "confidence": 0.43,
+        "excel_id": 3,
+        "status": "matched"
+      },
+      {
+        "roll_no": 28,
+        "name_en": "Iyad Walid Abdul Azim Ibrahim Muwafi",
+        "name_ar": "اياد وليد عبد العظيم إبراهيم موافي",
+        "national_id": "32005071100557",
+        "login_code": "ips@00557",
+        "confidence": 0.5,
+        "excel_id": 5,
+        "status": "matched"
+      },
+      {
+        "roll_no": 29,
+        "name_en": "Tamim Muhammad Radwan Radwan Isa Abdul Haq",
+        "name_ar": "تميم محمد رضوان رضوان عيسى عبد الحق",
+        "national_id": "32008061100574",
+        "login_code": "ips@00574",
+        "confidence": 0.43,
+        "excel_id": 8,
+        "status": "matched"
+      },
+      {
+        "roll_no": 30,
+        "name_en": "Saif Muhammad Awad Ahmed Osman",
+        "name_ar": "سيف محمد عوض أحمد عثمان",
+        "national_id": "32005241100093",
+        "login_code": "ips@00093",
+        "confidence": 0.6,
+        "excel_id": 13,
+        "status": "matched"
+      },
+      {
+        "roll_no": 31,
+        "name_en": "Omar Saad Muath Mohammed Jumaa Hamid",
+        "name_ar": "عمير سعد معاذ محمد جمعه حامد",
+        "national_id": "31912191202454",
+        "login_code": "ips@02454",
+        "confidence": 0.5,
+        "excel_id": 15,
+        "status": "matched"
+      },
+      {
+        "roll_no": 32,
+        "name_en": "Malik Mustafa Magdy Mohammed Youssef Al-Shahawy",
+        "name_ar": "مالك مصطفى مجدي محمد يوسف الشهاوي",
+        "national_id": "32002021100298",
+        "login_code": "ips@00298",
+        "confidence": 0.57,
+        "excel_id": 16,
+        "status": "matched"
+      },
+      {
+        "roll_no": 33,
+        "name_en": "Mohammed Abdu Ibrahim Abdul Qader Hamid Abu Al-Ata",
+        "name_ar": "محمد عبده ابراهيم عبد القادر حامد ابو العطا",
+        "national_id": "32006091202018",
+        "login_code": "ips@02018",
+        "confidence": 0.44,
+        "excel_id": 17,
+        "status": "matched"
+      },
+      {
+        "roll_no": 35,
+        "name_en": "Yamen Ahmed Sabri Mohammed Ibrahim Al-Halawati",
+        "name_ar": "يامن أحمد صبري محمد إبراهيم الحلواتي",
+        "national_id": "31909181202757",
+        "login_code": "ips@02757",
+        "confidence": 0.57,
+        "excel_id": 21,
+        "status": "matched"
+      },
+      {
+        "roll_no": 36,
+        "name_en": "Oswa Ahmed Ibrahim Ismail Nazha",
+        "name_ar": "أسوة احمد إبراهيم إسماعيل نزهة",
+        "national_id": "32007261100645",
+        "login_code": "ips@00645",
+        "confidence": 0.8,
+        "excel_id": 24,
+        "status": "matched"
+      },
+      {
+        "roll_no": 38,
+        "name_en": "Talia Khalid Saad Ahmad Hassan Al-Laban",
+        "name_ar": "تاليا خالد سعد احمد حسن اللبان",
+        "national_id": "32002261100485",
+        "login_code": "ips@00485",
+        "confidence": 0.57,
+        "excel_id": 27,
+        "status": "matched"
+      },
+      {
+        "roll_no": 40,
+        "name_en": "Dalida Muhammad Ismail Youssef Youssef Abdul Latif",
+        "name_ar": "داليدا محمد إسماعيل يوسف يوسف عبد اللطيف",
+        "national_id": "32008061100604",
+        "login_code": "ips@00604",
+        "confidence": 0.86,
+        "excel_id": 29,
+        "status": "matched"
+      },
+      {
+        "roll_no": 44,
+        "name_en": "Layan Khaled Mahrous Mohammed Hassan Jabal",
+        "name_ar": "ليان خالد محروس محمد حسن جبل",
+        "national_id": "32006171100607",
+        "login_code": "ips@00607",
+        "confidence": 0.67,
+        "excel_id": 41,
+        "status": "matched"
+      },
+      {
+        "roll_no": 45,
+        "name_en": "Lein Ahmed Tharwat Fouad Mohammed Rajab",
+        "name_ar": "لين أحمد ثروت فؤاد محمد رجب",
+        "national_id": "32009221202367",
+        "login_code": "ips@02367",
+        "confidence": 0.67,
+        "excel_id": 44,
+        "status": "matched"
+      },
+      {
+        "roll_no": 46,
+        "name_en": "Laila Ahmed Talaat Atiyah Hamid Rashid",
+        "name_ar": "ليلى أحمد طلعت عطية حامد راشد",
+        "national_id": "32002141100461",
+        "login_code": "ips@00461",
+        "confidence": 0.5,
+        "excel_id": 43,
+        "status": "matched"
+      },
+      {
+        "roll_no": 47,
+        "name_en": "Naya Mohammed Abdulrahman Ridwan Al-Sayed",
+        "name_ar": "نايا محمد عبدالرحمن رضوان السيد",
+        "national_id": "32004101100461",
+        "login_code": "ips@00461",
+        "confidence": 0.67,
+        "excel_id": 46,
+        "status": "matched"
+      }
+    ],
+    "unmatched_excel": [
+      {
+        "id": 6,
+        "name_ar": "آيان نبيل نبيل رأفت القعقاع العتباني",
+        "national_id": "31911251205559",
+        "gender": "ذكر",
+        "year": "Year 1",
+        "last5": "05559",
+        "last4": "5559",
+        "login_code": "ips@05559"
+      },
+      {
+        "id": 12,
+        "name_ar": "ساجد محمد عوض احمد عثمان",
+        "national_id": "32005241100115",
+        "gender": "ذكر",
+        "year": "Year 1",
+        "last5": "00115",
+        "last4": "0115",
+        "login_code": "ips@00115"
+      },
+      {
+        "id": 14,
+        "name_ar": "عمر سامح صديق عبدالعزيز على النفيلي",
+        "national_id": "32006061203516",
+        "gender": "ذكر",
+        "year": "Year 1",
+        "last5": "03516",
+        "last4": "3516",
+        "login_code": "ips@03516"
+      },
+      {
+        "id": 18,
+        "name_ar": "محمد سـراج أشرف محمد موسى ضيا",
+        "national_id": "32006011100112",
+        "gender": "ذكر",
+        "year": "Year 1",
+        "last5": "00112",
+        "last4": "0112",
+        "login_code": "ips@00112"
+      },
+      {
+        "id": 19,
+        "name_ar": "محمود مجدى طه عبدالحليم الخضرجي",
+        "national_id": "31911238800456",
+        "gender": "ذكر",
+        "year": "Year 1",
+        "last5": "00456",
+        "last4": "0456",
+        "login_code": "ips@00456"
+      },
+      {
+        "id": 22,
+        "name_ar": "يامن رياض العربي رياض الشهاوي",
+        "national_id": "32006291100074",
+        "gender": "ذكر",
+        "year": "Year 1",
+        "last5": "00074",
+        "last4": "0074",
+        "login_code": "ips@00074"
+      },
+      {
+        "id": 26,
+        "name_ar": "آيلن عبدالحميد السيد عبد الحميد خليل",
+        "national_id": "32005011100426",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "00426",
+        "last4": "0426",
+        "login_code": "ips@00426"
+      },
+      {
+        "id": 28,
+        "name_ar": "خديجة خالد السعيد عبد العزيز السعيد حجازى",
+        "national_id": "32007141100307",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "00307",
+        "last4": "0307",
+        "login_code": "ips@00307"
+      },
+      {
+        "id": 33,
+        "name_ar": "سدرة محمد ياقوت يسري البربير",
+        "national_id": "32007271100325",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "00325",
+        "last4": "0325",
+        "login_code": "ips@00325"
+      },
+      {
+        "id": 36,
+        "name_ar": "عاليا زكريا محمد رضا زكريا السقعان",
+        "national_id": "32007011100283",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "00283",
+        "last4": "0283",
+        "login_code": "ips@00283"
+      },
+      {
+        "id": 37,
+        "name_ar": "فيروزاحمد جمال عطيه حنيفه",
+        "national_id": "32006301100167",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "00167",
+        "last4": "0167",
+        "login_code": "ips@00167"
+      },
+      {
+        "id": 38,
+        "name_ar": "كارلا احمد محمد عبده البسيوني",
+        "national_id": "32002021101405",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "01405",
+        "last4": "1405",
+        "login_code": "ips@01405"
+      },
+      {
+        "id": 42,
+        "name_ar": "ليان عمرو زكريا بهجات السعيد ريه",
+        "national_id": "32002021101669",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "01669",
+        "last4": "1669",
+        "login_code": "ips@01669"
+      },
+      {
+        "id": 45,
+        "name_ar": "ملك محمد اسامه وحيد الدين ابراهيم الدالي",
+        "national_id": "32009242200245",
+        "gender": "أنثى",
+        "year": "Year 1",
+        "last5": "00245",
+        "last4": "0245",
+        "login_code": "ips@00245"
+      }
+    ],
+    "unmatched_pdf": [
+      {
+        "roll_no": 3,
+        "name_en": "Ayan Nabil Nabil Raafat Al-Qaqaa Al-Atbani",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "29",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "49",
+            "percentage": "98%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "23",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "116",
+          "max_total": 120,
+          "percentage": "97%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 9,
+        "name_en": "Omar Samah Sadiq Abdulaziz Ali Al-Nufaili",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "29",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "48",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "25",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "117",
+          "max_total": 120,
+          "percentage": "98%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 10,
+        "name_en": "Mohammad Siraj Ashraf Mohammad Moussa Diya",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "29",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "45",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "25",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "114",
+          "max_total": 120,
+          "percentage": "95%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 12,
+        "name_en": "Yamen Riad Al-Arabi Riad Al-Shahawi",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "29.5",
+            "percentage": "98%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "44",
+            "percentage": "88%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "17",
+            "percentage": "68%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "105.5",
+          "max_total": 120,
+          "percentage": "88%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 21,
+        "name_en": "Karla Ahmed Mohammed Abdu Al-Basyouni",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "28.5",
+            "percentage": "95%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "47",
+            "percentage": "94%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "22",
+            "percentage": "88%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "112.5",
+          "max_total": 120,
+          "percentage": "94%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 23,
+        "name_en": "Layan Amr Zakaria Bahjat Al-Saeed Riya",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "27.5",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "47",
+            "percentage": "94%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "23",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "112.5",
+          "max_total": 120,
+          "percentage": "94%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 24,
+        "name_en": "Malak Mohammed Osama Wahid Al-Din Ibrahim Al-Dali",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "28.5",
+            "percentage": "95%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "45",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "24",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "112.5",
+          "max_total": 120,
+          "percentage": "94%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 34,
+        "name_en": "Mahmoud Magdy Taha Abdul Halim Al-Khadraji",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "23",
+            "percentage": "77%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "48",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "21",
+            "percentage": "84%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "13.5",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "105.5",
+          "max_total": 120,
+          "percentage": "88%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 37,
+        "name_en": "Aylan Abdulhamid Sayyid Abdulhamid Khalil",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "29",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "23",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "117",
+          "max_total": 120,
+          "percentage": "98%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 39,
+        "name_en": "Khadija Khalid Al-Saeed Abdulaziz Al-Saeed Hijazi",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          }
+        ],
+        "overall": {
+          "total_marks": "Absent",
+          "max_total": 120,
+          "percentage": null,
+          "grade": null,
+          "is_absent": true,
+          "is_error": true
+        }
+      },
+      {
+        "roll_no": 41,
+        "name_en": "Sedra Mohammed Yaqout Yousri Al-Barbir",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "25",
+            "percentage": "83%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "42",
+            "percentage": "84%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "23",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "105",
+          "max_total": 120,
+          "percentage": "88%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 42,
+        "name_en": "Aliya Zakaria Mohammed Reda Zakaria Al-Suqaan",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          }
+        ],
+        "overall": {
+          "total_marks": "Absent",
+          "max_total": 120,
+          "percentage": null,
+          "grade": null,
+          "is_absent": true,
+          "is_error": true
+        }
+      },
+      {
+        "roll_no": 43,
+        "name_en": "Layan Ahmed Ahmed Mohammed Ahmed Abdulaziz",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "23",
+            "percentage": "77%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "21",
+            "percentage": "84%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "109",
+          "max_total": 120,
+          "percentage": "91%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 48,
+        "name_en": "Yosra Ahmed Jamal Mohammed Al-Abd",
+        "year": "Year 1",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 30,
+            "mark": "27",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "45",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 25,
+            "mark": "23",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "110",
+          "max_total": 120,
+          "percentage": "92%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      }
+    ]
+  },
+  "Year 2": {
+    "excel_count": 45,
+    "pdf_count": 45,
+    "matches": [
+      {
+        "roll_no": 1,
+        "name_en": "Ahmed Mohammed Ahmed Ahmed Mohammed Al-Ghandour",
+        "name_ar": "احمد محمد احمد احمد محمد الغندور",
+        "national_id": "31811281100994",
+        "login_code": "ips@00994",
+        "confidence": 0.71,
+        "excel_id": 2,
+        "status": "matched"
+      },
+      {
+        "roll_no": 2,
+        "name_en": "Baraa Mohammed Rizq Rizq Abduljawad Najm",
+        "name_ar": "مازن محمد عبدالرازق محمد محمد كناني",
+        "national_id": "31908201205336",
+        "login_code": "ips@05336",
+        "confidence": 0.5,
+        "excel_id": 15,
+        "status": "matched"
+      },
+      {
+        "roll_no": 3,
+        "name_en": "Hamza Mohamed Ibrahim Tawfiq",
+        "name_ar": "حمزة محمد إبراهيم توفيق",
+        "national_id": "31906301100156",
+        "login_code": "ips@00156",
+        "confidence": 0.75,
+        "excel_id": 8,
+        "status": "matched"
+      },
+      {
+        "roll_no": 4,
+        "name_en": "Hamza Mohamed Hosni Ibrahim Younes Hijazi",
+        "name_ar": "حمزه محمد حسني ابراهيم يونس حجازي",
+        "national_id": "31906301203117",
+        "login_code": "ips@03117",
+        "confidence": 0.67,
+        "excel_id": 9,
+        "status": "matched"
+      },
+      {
+        "roll_no": 5,
+        "name_en": "Salim Samah Emad Ibrahim Ibrahim Samra",
+        "name_ar": "سليم سامح عماد إبراهيم إبراهيم سمره",
+        "national_id": "31808241200618",
+        "login_code": "ips@00618",
+        "confidence": 0.5,
+        "excel_id": 13,
+        "status": "matched"
+      },
+      {
+        "roll_no": 6,
+        "name_en": "Mazen Mohamed Abdulrazak Mohamed Mohamed Kanani",
+        "name_ar": "عمر وليد محمد أحمد محمد عبد الله",
+        "national_id": "31906101100771",
+        "login_code": "ips@00771",
+        "confidence": 0.43,
+        "excel_id": 14,
+        "status": "matched"
+      },
+      {
+        "roll_no": 7,
+        "name_en": "Yahya Ahmed Jamal Mohamed Al-Abd",
+        "name_ar": "يحيي احمد جمال محمد العبد",
+        "national_id": "31905011101594",
+        "login_code": "ips@01594",
+        "confidence": 0.67,
+        "excel_id": 17,
+        "status": "matched"
+      },
+      {
+        "roll_no": 8,
+        "name_en": "Yusuf Mohammed Abdel Halim Saad",
+        "name_ar": "يوسف محمد عبد الحليم سعد",
+        "national_id": "31807231101097",
+        "login_code": "ips@01097",
+        "confidence": 0.6,
+        "excel_id": 18,
+        "status": "matched"
+      },
+      {
+        "roll_no": 9,
+        "name_en": "Yusuf Mohammed Fikri Mohammed Mustafa Al-Amir",
+        "name_ar": "يوسف محمد فكري محمد مصطفي الأمير",
+        "national_id": "31903041203895",
+        "login_code": "ips@03895",
+        "confidence": 0.57,
+        "excel_id": 19,
+        "status": "matched"
+      },
+      {
+        "roll_no": 11,
+        "name_en": "Ayla Shadi Ahmed Ahmed Zaghloul",
+        "name_ar": "احمد خالد احمد احمد التابعي",
+        "national_id": "31906061101079",
+        "login_code": "ips@01079",
+        "confidence": 0.6,
+        "excel_id": 1,
+        "status": "matched"
+      },
+      {
+        "roll_no": 12,
+        "name_en": "Tulin Ahmed Hussein Mohammed Al-Ashmawi",
+        "name_ar": "تولين أحمد حسين محمد العشماوى",
+        "national_id": "31909151100909",
+        "login_code": "ips@00909",
+        "confidence": 0.67,
+        "excel_id": 26,
+        "status": "matched"
+      },
+      {
+        "roll_no": 13,
+        "name_en": "Jamila Ahmed Magdy Mohamed Al-Saeed Mohamed",
+        "name_ar": "جميله احمد مجدى محمد السعيد محمد",
+        "national_id": "31909091200046",
+        "login_code": "ips@00046",
+        "confidence": 0.57,
+        "excel_id": 28,
+        "status": "matched"
+      },
+      {
+        "roll_no": 14,
+        "name_en": "Jana Abdulqader Ahmed Abdulqader Al-Sayed Zayed",
+        "name_ar": "جنا عبدالقادر أحمد عبدالقادر السيد زايد",
+        "national_id": "31907211100129",
+        "login_code": "ips@00129",
+        "confidence": 0.57,
+        "excel_id": 29,
+        "status": "matched"
+      },
+      {
+        "roll_no": 15,
+        "name_en": "Tia Nabil Mohamed Mohamed Khattab",
+        "name_ar": "رنوة نبيل محمد محمد خطاب",
+        "national_id": "31809221100842",
+        "login_code": "ips@00842",
+        "confidence": 0.6,
+        "excel_id": 32,
+        "status": "matched"
+      },
+      {
+        "roll_no": 17,
+        "name_en": "Sara Mohamed Ahmed Abdul-Monim Moneim",
+        "name_ar": "زين محمد أحمد أحمد زغلول",
+        "national_id": "31811261100475",
+        "login_code": "ips@00475",
+        "confidence": 0.5,
+        "excel_id": 12,
+        "status": "matched"
+      },
+      {
+        "roll_no": 18,
+        "name_en": "Abir Abdulaziz Mahmoud Mohammed",
+        "name_ar": "عبير عبدالعزيز محمود محمد",
+        "national_id": "31901191204927",
+        "login_code": "ips@04927",
+        "confidence": 0.75,
+        "excel_id": 37,
+        "status": "matched"
+      },
+      {
+        "roll_no": 20,
+        "name_en": "Layan Mohamed Sabri Fawzi Al-Sayed",
+        "name_ar": "ليان محمد صبرى فوزى السيد",
+        "national_id": "31905191202163",
+        "login_code": "ips@02163",
+        "confidence": 0.67,
+        "excel_id": 41,
+        "status": "matched"
+      },
+      {
+        "roll_no": 22,
+        "name_en": "Maria Mohannad Mounib Mohamed Tamim Ali",
+        "name_ar": "ماريا مهند منيب محمد تميم على",
+        "national_id": "31907011100264",
+        "login_code": "ips@00264",
+        "confidence": 0.67,
+        "excel_id": 43,
+        "status": "matched"
+      },
+      {
+        "roll_no": 23,
+        "name_en": "Yasmina Mohamed Mahmoud Nasr Saqr",
+        "name_ar": "ياسمينا محمد محمود نصر صقر",
+        "national_id": "31905301204621",
+        "login_code": "ips@04621",
+        "confidence": 0.6,
+        "excel_id": 45,
+        "status": "matched"
+      },
+      {
+        "roll_no": 25,
+        "name_en": "Tamer Ahmed Mahmoud Amer Ezzat Amer",
+        "name_ar": "تامر أحمد محمود عامر عزت عامر",
+        "national_id": "31801048801073",
+        "login_code": "ips@01073",
+        "confidence": 0.5,
+        "excel_id": 5,
+        "status": "matched"
+      },
+      {
+        "roll_no": 27,
+        "name_en": "Hamza Ahmed Mahmoud Amer Ezzat Amer",
+        "name_ar": "حمزة  أحمد محمود عامر عزت عامر",
+        "national_id": "31801048801057",
+        "login_code": "ips@01057",
+        "confidence": 0.5,
+        "excel_id": 7,
+        "status": "matched"
+      },
+      {
+        "roll_no": 28,
+        "name_en": "Ryan Mohammed Jalal Mohammed Taher Al-Eisawi",
+        "name_ar": "ريان محمد جلال محمد طاهر العيسوى",
+        "national_id": "31811011100658",
+        "login_code": "ips@00658",
+        "confidence": 0.43,
+        "excel_id": 10,
+        "status": "matched"
+      },
+      {
+        "roll_no": 29,
+        "name_en": "Zain Islam Izzat Abdel Fattah Hassan Amara",
+        "name_ar": "زين اسلام عزت عبد الفتاح حسن عماره",
+        "national_id": "31903081202239",
+        "login_code": "ips@02239",
+        "confidence": 0.43,
+        "excel_id": 11,
+        "status": "matched"
+      },
+      {
+        "roll_no": 30,
+        "name_en": "Zain Mohamed Ahmed Ahmed Zaghloul",
+        "name_ar": "تيا أحمد السعيد إبراهيم محمد محمد العيوطي",
+        "national_id": "31806181205086",
+        "login_code": "ips@05086",
+        "confidence": 0.43,
+        "excel_id": 27,
+        "status": "matched"
+      },
+      {
+        "roll_no": 31,
+        "name_en": "Omar Walid Mohamed Ahmed Mohamed Abdullah",
+        "name_ar": "أدهم باسم محمد سمير على احمد زيد",
+        "national_id": "31905161100596",
+        "login_code": "ips@00596",
+        "confidence": 0.43,
+        "excel_id": 3,
+        "status": "matched"
+      },
+      {
+        "roll_no": 32,
+        "name_en": "Yassin Ibrahim Magdy Ibrahim Younis",
+        "name_ar": "ياسين ابراهيم مجدي إبراهيم يونس",
+        "national_id": "31909191201872",
+        "login_code": "ips@01872",
+        "confidence": 0.8,
+        "excel_id": 16,
+        "status": "matched"
+      },
+      {
+        "roll_no": 33,
+        "name_en": "Younis Mahmoud Ali Abdel Nabi Mabrouk",
+        "name_ar": "يونس محمود على عبد النبي مبروك",
+        "national_id": "31812121100439",
+        "login_code": "ips@00439",
+        "confidence": 0.67,
+        "excel_id": 20,
+        "status": "matched"
+      },
+      {
+        "roll_no": 34,
+        "name_en": "Arwa Ibrahim Ashraf Ibrahim Abdu Al-Halaf",
+        "name_ar": "اروى ابراهيم اشرف إبراهيم عبده الهلف",
+        "national_id": "31812201100049",
+        "login_code": "ips@00049",
+        "confidence": 0.43,
+        "excel_id": 21,
+        "status": "matched"
+      },
+      {
+        "roll_no": 35,
+        "name_en": "Ayla Amr Mustafa Mustafa Kamel",
+        "name_ar": "آيلا عمرو مصطفى مصطفى كامل",
+        "national_id": "31908151100686",
+        "login_code": "ips@00686",
+        "confidence": 0.8,
+        "excel_id": 23,
+        "status": "matched"
+      },
+      {
+        "roll_no": 36,
+        "name_en": "Pirla Ahmed Mohamed Abdu Al-Basyouni",
+        "name_ar": "بيرلا أحمد محمد عبده البسيوني",
+        "national_id": "31811191100308",
+        "login_code": "ips@00308",
+        "confidence": 0.5,
+        "excel_id": 24,
+        "status": "matched"
+      },
+      {
+        "roll_no": 37,
+        "name_en": "Talia Yahya Bashir Awad Kasber",
+        "name_ar": "تاليا يحيى بشير عوض كسبر",
+        "national_id": "31904101100469",
+        "login_code": "ips@00469",
+        "confidence": 0.4,
+        "excel_id": 25,
+        "status": "matched"
+      },
+      {
+        "roll_no": 40,
+        "name_en": "Hala Mohammed Fathi Al-Awadi Ahmed",
+        "name_ar": "حلا محمد فتحي العوضي احمد",
+        "national_id": "31906011204063",
+        "login_code": "ips@04063",
+        "confidence": 0.5,
+        "excel_id": 31,
+        "status": "matched"
+      },
+      {
+        "roll_no": 41,
+        "name_en": "Saja Ahmed Reda Hassan Al-Abd",
+        "name_ar": "سجي احمد رضا حسن العبد",
+        "national_id": "31908221100042",
+        "login_code": "ips@00042",
+        "confidence": 0.67,
+        "excel_id": 35,
+        "status": "matched"
+      },
+      {
+        "roll_no": 42,
+        "name_en": "Alia Mohammed Ahmed Abdulrazak Hawza",
+        "name_ar": "عاليا محمد احمد عبدالرازق حوزة",
+        "national_id": "31902251100987",
+        "login_code": "ips@00987",
+        "confidence": 0.6,
+        "excel_id": 36,
+        "status": "matched"
+      },
+      {
+        "roll_no": 43,
+        "name_en": "Fayrouz Mahab Ahmed Kamel Ahmed Abdel-Moaty",
+        "name_ar": "فيروز مهاب أحمد كامل أحمد عبد المعطي",
+        "national_id": "31901071100869",
+        "login_code": "ips@00869",
+        "confidence": 0.57,
+        "excel_id": 39,
+        "status": "matched"
+      },
+      {
+        "roll_no": 44,
+        "name_en": "Karla Ahmed Yasser Samida",
+        "name_ar": "آيلا شادي أحمد احمد زغلول",
+        "national_id": "31906011101205",
+        "login_code": "ips@01205",
+        "confidence": 0.4,
+        "excel_id": 22,
+        "status": "matched"
+      },
+      {
+        "roll_no": 45,
+        "name_en": "Misk Amr Mohamed Asal",
+        "name_ar": "مسك عمرو محمد عسل",
+        "national_id": "31908071100081",
+        "login_code": "ips@00081",
+        "confidence": 0.75,
+        "excel_id": 44,
+        "status": "matched"
+      }
+    ],
+    "unmatched_excel": [
+      {
+        "id": 4,
+        "name_ar": "براء محمد رزق رزق عبدالجواد نجم",
+        "national_id": "31909011100534",
+        "gender": "ذكر",
+        "year": "Year 2",
+        "last5": "00534",
+        "last4": "0534",
+        "login_code": "ips@00534"
+      },
+      {
+        "id": 6,
+        "name_ar": "تميم يسرى عبد القادر وهبه مجد",
+        "national_id": "31909071100177",
+        "gender": "ذكر",
+        "year": "Year 2",
+        "last5": "00177",
+        "last4": "0177",
+        "login_code": "ips@00177"
+      },
+      {
+        "id": 30,
+        "name_ar": "جوري أحمد سمير كامل الحسانين",
+        "national_id": "31905201100306",
+        "gender": "أنثى",
+        "year": "Year 2",
+        "last5": "00306",
+        "last4": "0306",
+        "login_code": "ips@00306"
+      },
+      {
+        "id": 33,
+        "name_ar": "روز هشام محمد منصورالمغلاوي",
+        "national_id": "31909301100228",
+        "gender": "أنثى",
+        "year": "Year 2",
+        "last5": "00228",
+        "last4": "0228",
+        "login_code": "ips@00228"
+      },
+      {
+        "id": 34,
+        "name_ar": "ساره محمد احمد عبدالمنعم منيعم",
+        "national_id": "31908011101801",
+        "gender": "أنثى",
+        "year": "Year 2",
+        "last5": "01801",
+        "last4": "1801",
+        "login_code": "ips@01801"
+      },
+      {
+        "id": 38,
+        "name_ar": "فريده محمد ربيع الدسوقى المرسى",
+        "national_id": "31812061101309",
+        "gender": "أنثى",
+        "year": "Year 2",
+        "last5": "01309",
+        "last4": "1309",
+        "login_code": "ips@01309"
+      },
+      {
+        "id": 40,
+        "name_ar": "كارلا أحمد ياسر صميدة",
+        "national_id": "31902211100046",
+        "gender": "أنثى",
+        "year": "Year 2",
+        "last5": "00046",
+        "last4": "0046",
+        "login_code": "ips@00046"
+      },
+      {
+        "id": 42,
+        "name_ar": "ليليا محمد حمدى احمد السيد الحلوانى",
+        "national_id": "31902241100741",
+        "gender": "أنثى",
+        "year": "Year 2",
+        "last5": "00741",
+        "last4": "0741",
+        "login_code": "ips@00741"
+      }
+    ],
+    "unmatched_pdf": [
+      {
+        "roll_no": 10,
+        "name_en": "Elena Mohammed Jamal Al-Din Amin Mohammed Abdel Qader",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          }
+        ],
+        "overall": {
+          "total_marks": "Absent",
+          "max_total": 120,
+          "percentage": null,
+          "grade": null,
+          "is_absent": true,
+          "is_error": true
+        }
+      },
+      {
+        "roll_no": 16,
+        "name_en": "Rose Hisham Mohamed Mansour Al-Maghlawi",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "24",
+            "percentage": "69%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "28",
+            "percentage": "80%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "32",
+            "percentage": "91%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "14",
+            "percentage": "93%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "98",
+          "max_total": 120,
+          "percentage": "82%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 19,
+        "name_en": "Farida Mohamed Rabi' Al-Dasouqi Al-Morsi",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "28",
+            "percentage": "80%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "34",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "32",
+            "percentage": "91%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "109",
+          "max_total": 120,
+          "percentage": "91%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 21,
+        "name_en": "Lilia Mohamed Hamdi Ahmed Al-Sayed Al-Halwani",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "24",
+            "percentage": "69%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "30",
+            "percentage": "86%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "32",
+            "percentage": "91%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "101",
+          "max_total": 120,
+          "percentage": "84%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 24,
+        "name_en": "Ahmed Khaled Ahmed Ahmed Al-Tabi",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "19.5",
+            "percentage": "56%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "35.5",
+            "percentage": "89%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "30.25",
+            "percentage": "86%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          }
+        ],
+        "overall": {
+          "total_marks": "Absent",
+          "max_total": 120,
+          "percentage": null,
+          "grade": null,
+          "is_absent": true,
+          "is_error": true
+        }
+      },
+      {
+        "roll_no": 26,
+        "name_en": "Tamim Yusri Abdul Qadir Wahba Majd",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "23",
+            "percentage": "66%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "37",
+            "percentage": "93%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "23.5",
+            "percentage": "67%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "98.5",
+          "max_total": 120,
+          "percentage": "79%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 38,
+        "name_en": "Tia Ahmed Al-Saeed Ibrahim Mohamed Mohamed Al-Ayouti",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "30.5",
+            "percentage": "87%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "40",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "28.5",
+            "percentage": "81%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "114",
+          "max_total": 120,
+          "percentage": "91%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 39,
+        "name_en": "Jouri Ahmed Samir Kamel Al-Hassanain",
+        "year": "Year 2",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 35,
+            "mark": "34",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 35,
+            "mark": "34.5",
+            "percentage": "86%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 35,
+            "mark": "30",
+            "percentage": "86%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "113.5",
+          "max_total": 120,
+          "percentage": "91%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      }
+    ]
+  },
+  "Year 3": {
+    "excel_count": 46,
+    "pdf_count": 46,
+    "matches": [
+      {
+        "roll_no": 1,
+        "name_en": "Ahmed Rami Ragab Mohamed Ahmed Al-Shafie",
+        "name_ar": "احمد رامى رجب محمد احمد الشافعي",
+        "national_id": "31806131501474",
+        "login_code": "ips@01474",
+        "confidence": 0.57,
+        "excel_id": 1,
+        "status": "matched"
+      },
+      {
+        "roll_no": 2,
+        "name_en": "Adam Mohamed Ahmed El-Sayed Diab",
+        "name_ar": "ادم محمد أحمد السيد دياب",
+        "national_id": "31804091100339",
+        "login_code": "ips@00339",
+        "confidence": 0.5,
+        "excel_id": 3,
+        "status": "matched"
+      },
+      {
+        "roll_no": 3,
+        "name_en": "Elias Mohamed Abdul Hadi Mohamed Al-Sayed",
+        "name_ar": "الياس محمد عبد الهادي محمد السيد",
+        "national_id": "31810011301371",
+        "login_code": "ips@01371",
+        "confidence": 0.71,
+        "excel_id": 5,
+        "status": "matched"
+      },
+      {
+        "roll_no": 5,
+        "name_en": "Hussein Sharif Hussein Youssef Al-Baisi",
+        "name_ar": "حسين شريف حسين يوسف البيسي",
+        "national_id": "31801011106316",
+        "login_code": "ips@06316",
+        "confidence": 0.67,
+        "excel_id": 9,
+        "status": "matched"
+      },
+      {
+        "roll_no": 6,
+        "name_en": "Hamza Abdulhadi Mahmoud El-Sayed Mohamed",
+        "name_ar": "حمزة عبدالهادي محمود السيد محمد",
+        "national_id": "31711091201455",
+        "login_code": "ips@01455",
+        "confidence": 0.67,
+        "excel_id": 10,
+        "status": "matched"
+      },
+      {
+        "roll_no": 7,
+        "name_en": "Omar Mohamed Ahmed Mustafa Al-Najjar",
+        "name_ar": "عمر محمد احمد محمد مصطفى النجار",
+        "national_id": "31702041100756",
+        "login_code": "ips@00756",
+        "confidence": 0.83,
+        "excel_id": 15,
+        "status": "matched"
+      },
+      {
+        "roll_no": 8,
+        "name_en": "Malik Mohamed Mohamed Abdel Fattah Al-Sharbasi",
+        "name_ar": "مالك محمد محمد عبد الفتاح الشرباصي",
+        "national_id": "31807201100452",
+        "login_code": "ips@00452",
+        "confidence": 0.57,
+        "excel_id": 17,
+        "status": "matched"
+      },
+      {
+        "roll_no": 10,
+        "name_en": "Yahya Sharif Hussein Youssef Al-Baisi",
+        "name_ar": "يحيى شريف حسين يوسف البيسي",
+        "national_id": "31801011106359",
+        "login_code": "ips@06359",
+        "confidence": 0.67,
+        "excel_id": 21,
+        "status": "matched"
+      },
+      {
+        "roll_no": 11,
+        "name_en": "Ayla Ahmed Magdy Mohamed Al-Mawafi Al-Sayed",
+        "name_ar": "ايلا احمد مجدى محمد الموافي السيد",
+        "national_id": "31803091202283",
+        "login_code": "ips@02283",
+        "confidence": 0.5,
+        "excel_id": 22,
+        "status": "matched"
+      },
+      {
+        "roll_no": 12,
+        "name_en": "Talia Ahmed Jamal Issa Farid Issa",
+        "name_ar": "تاليا احمد جمال عيسى فريد عيسى",
+        "national_id": "31809271101165",
+        "login_code": "ips@01165",
+        "confidence": 0.5,
+        "excel_id": 24,
+        "status": "matched"
+      },
+      {
+        "roll_no": 13,
+        "name_en": "Julia Mohammed Mohammed Hassan Mohammed Al-Ashmawi",
+        "name_ar": "جوليا محمد محمد حسن محمد العشماوي",
+        "national_id": "31804011204961",
+        "login_code": "ips@04961",
+        "confidence": 0.71,
+        "excel_id": 26,
+        "status": "matched"
+      },
+      {
+        "roll_no": 14,
+        "name_en": "Habiba Mohammed Fathi Al-Awadi Ahmed",
+        "name_ar": "تالا محمد احمد محمد العاصي",
+        "national_id": "31807151100243",
+        "login_code": "ips@00243",
+        "confidence": 0.5,
+        "excel_id": 23,
+        "status": "matched"
+      },
+      {
+        "roll_no": 16,
+        "name_en": "Seela Khaled Atef Darwish Wahba",
+        "name_ar": "سيلا خالد عاطف درويش وهبة",
+        "national_id": "31807291101029",
+        "login_code": "ips@01029",
+        "confidence": 0.4,
+        "excel_id": 30,
+        "status": "matched"
+      },
+      {
+        "roll_no": 17,
+        "name_en": "Seline Ahmed Yousri Ibrahim Mohammed Al-Shabouri",
+        "name_ar": "سيلين احمد يسري إبراهيم محمد الشابوري",
+        "national_id": "31711061202945",
+        "login_code": "ips@02945",
+        "confidence": 0.57,
+        "excel_id": 32,
+        "status": "matched"
+      },
+      {
+        "roll_no": 18,
+        "name_en": "Farida Karim Mohammed Al-Sayed Abdel Halim Al-Azouni",
+        "name_ar": "فريده كريم محمد السيد عبدالحليم العزونى",
+        "national_id": "31801011104623",
+        "login_code": "ips@04623",
+        "confidence": 0.44,
+        "excel_id": 34,
+        "status": "matched"
+      },
+      {
+        "roll_no": 19,
+        "name_en": "Farida Mahmoud Salah Mahmoud Al-Mansouri",
+        "name_ar": "فريده محمود صلاح محمود المنصوري",
+        "national_id": "31703211100086",
+        "login_code": "ips@00086",
+        "confidence": 0.67,
+        "excel_id": 35,
+        "status": "matched"
+      },
+      {
+        "roll_no": 20,
+        "name_en": "Karma Yasser Adel Abdel Fattah Ibrahim Suleiman",
+        "name_ar": "اسر احمد عبد المولى محمد إبراهيم",
+        "national_id": "31804078800933",
+        "login_code": "ips@00933",
+        "confidence": 0.43,
+        "excel_id": 4,
+        "status": "matched"
+      },
+      {
+        "roll_no": 22,
+        "name_en": "Lilia Ahmed Ali Hassan Ali Abu Al-Ala",
+        "name_ar": "ليليا احمد على حسن على أبوالعلا",
+        "national_id": "31801011100863",
+        "login_code": "ips@00863",
+        "confidence": 0.5,
+        "excel_id": 41,
+        "status": "matched"
+      },
+      {
+        "roll_no": 23,
+        "name_en": "Nur Ahmad Sami Omar Madkur",
+        "name_ar": "نور احمد سامي عمر مدكور",
+        "national_id": "31709191203663",
+        "login_code": "ips@03663",
+        "confidence": 0.8,
+        "excel_id": 44,
+        "status": "matched"
+      },
+      {
+        "roll_no": 24,
+        "name_en": "Nour Mahmoud Mohamed Abdulrazak Ibrahim Alawadi",
+        "name_ar": "احمد محمود عبد المولى محمد إبراهيم",
+        "national_id": "31803138801199",
+        "login_code": "ips@01199",
+        "confidence": 0.67,
+        "excel_id": 2,
+        "status": "matched"
+      },
+      {
+        "roll_no": 25,
+        "name_en": "Ahmed Mahmoud Abdul Mowli Mohamed Ibrahim",
+        "name_ar": "كنزى احمد محمد أبو المعاطي محمود",
+        "national_id": "31611111101784",
+        "login_code": "ips@01784",
+        "confidence": 0.5,
+        "excel_id": 38,
+        "status": "matched"
+      },
+      {
+        "roll_no": 27,
+        "name_en": "Anas Ibrahim Fathi Rajab Ahmed",
+        "name_ar": "انس ابراهيم فتحي رجب احمد",
+        "national_id": "31801221100191",
+        "login_code": "ips@00191",
+        "confidence": 0.8,
+        "excel_id": 6,
+        "status": "matched"
+      },
+      {
+        "roll_no": 28,
+        "name_en": "Eyad Ahmad Muhammad Habib Al-Shanawi",
+        "name_ar": "اياد احمد محمد حبيب الشناوي",
+        "national_id": "31712101202893",
+        "login_code": "ips@02893",
+        "confidence": 0.5,
+        "excel_id": 7,
+        "status": "matched"
+      },
+      {
+        "roll_no": 29,
+        "name_en": "Ryan Imad Ahmad Muhammad Jad Al-Karim",
+        "name_ar": "ريان عماد احمد محمد جاد الكريم",
+        "national_id": "31805081201176",
+        "login_code": "ips@01176",
+        "confidence": 0.43,
+        "excel_id": 11,
+        "status": "matched"
+      },
+      {
+        "roll_no": 30,
+        "name_en": "Zayed Ibrahim Ridi Abdul Rahim Ridi",
+        "name_ar": "زايد ابراهيم ريدي عبد الرحيم ريدي",
+        "national_id": "31712168800892",
+        "login_code": "ips@00892",
+        "confidence": 0.5,
+        "excel_id": 12,
+        "status": "matched"
+      },
+      {
+        "roll_no": 31,
+        "name_en": "Salim Mahmoud Abdu Muhammad Abdulrahman Al-Jamal",
+        "name_ar": "سليم محمود عبده محمد عبدالرحمن الجمل",
+        "national_id": "31710201100157",
+        "login_code": "ips@00157",
+        "confidence": 0.57,
+        "excel_id": 13,
+        "status": "matched"
+      },
+      {
+        "roll_no": 32,
+        "name_en": "Salah Muhammad Muhammad Salih Al-Din Al-Akyabi",
+        "name_ar": "صلاح محمد محمد صلاح الدين الاكيابي",
+        "national_id": "31711071100733",
+        "login_code": "ips@00733",
+        "confidence": 0.5,
+        "excel_id": 14,
+        "status": "matched"
+      },
+      {
+        "roll_no": 33,
+        "name_en": "Malik Mohammed Al-Sayed Ahmed Hilal",
+        "name_ar": "مالك محمد السيد احمد هلال",
+        "national_id": "31802231100315",
+        "login_code": "ips@00315",
+        "confidence": 0.67,
+        "excel_id": 16,
+        "status": "matched"
+      },
+      {
+        "roll_no": 37,
+        "name_en": "Ganna Muhammad Saleh Taha Yusuf Al-Mutawalli",
+        "name_ar": "جنة محمد صالح طه يوسف المتولي",
+        "national_id": "31807241201448",
+        "login_code": "ips@01448",
+        "confidence": 0.43,
+        "excel_id": 25,
+        "status": "matched"
+      },
+      {
+        "roll_no": 38,
+        "name_en": "Rozan Khalid Abdul Basit Hassan Mousa",
+        "name_ar": "روزان خالد عبد الباسط حسن موسي",
+        "national_id": "31808081101685",
+        "login_code": "ips@01685",
+        "confidence": 0.67,
+        "excel_id": 29,
+        "status": "matched"
+      },
+      {
+        "roll_no": 39,
+        "name_en": "Seline Ahmad Atef Darwish Wahba",
+        "name_ar": "سيلين احمد عاطف درويش وهبه",
+        "national_id": "31805051101207",
+        "login_code": "ips@01207",
+        "confidence": 0.4,
+        "excel_id": 31,
+        "status": "matched"
+      },
+      {
+        "roll_no": 40,
+        "name_en": "Farida Medhat Magdy Mahmoud Khalil",
+        "name_ar": "فريدة مدحت مجدى محمود خليل",
+        "national_id": "31805201100964",
+        "login_code": "ips@00964",
+        "confidence": 0.4,
+        "excel_id": 33,
+        "status": "matched"
+      },
+      {
+        "roll_no": 41,
+        "name_en": "Katya Mohamed Salah El-Din Mustafa",
+        "name_ar": "كاتيا محمد صلاح الدين مصطفى",
+        "national_id": "31804238801184",
+        "login_code": "ips@01184",
+        "confidence": 0.67,
+        "excel_id": 36,
+        "status": "matched"
+      },
+      {
+        "roll_no": 43,
+        "name_en": "Lara Ahmed Ashraf Zakaria Habba",
+        "name_ar": "لارا احمد اشرف زكريا حبه",
+        "national_id": "31805031100468",
+        "login_code": "ips@00468",
+        "confidence": 0.6,
+        "excel_id": 39,
+        "status": "matched"
+      },
+      {
+        "roll_no": 44,
+        "name_en": "Maria Ahmed Tharwat Fouad Mohamed Ragab",
+        "name_ar": "ماريا أحمد ثروت فؤاد محمد رجب",
+        "national_id": "31809051203803",
+        "login_code": "ips@03803",
+        "confidence": 0.67,
+        "excel_id": 42,
+        "status": "matched"
+      },
+      {
+        "roll_no": 46,
+        "name_en": "Nourin Mahmoud Hamid Awad Rabi",
+        "name_ar": "نورين محمود حامد عوض ربيع",
+        "national_id": "31612021100084",
+        "login_code": "ips@00084",
+        "confidence": 0.6,
+        "excel_id": 46,
+        "status": "matched"
+      }
+    ],
+    "unmatched_excel": [
+      {
+        "id": 8,
+        "name_ar": "بجاد احمد وجدي لطفى السيد خليل فودة",
+        "national_id": "31807291100057",
+        "gender": "ذكر",
+        "year": "Year 3",
+        "last5": "00057",
+        "last4": "0057",
+        "login_code": "ips@00057"
+      },
+      {
+        "id": 18,
+        "name_ar": "ياسين عاصم فؤاد السعيد فايد",
+        "national_id": "31710011104059",
+        "gender": "ذكر",
+        "year": "Year 3",
+        "last5": "04059",
+        "last4": "4059",
+        "login_code": "ips@04059"
+      },
+      {
+        "id": 19,
+        "name_ar": "ياسين عبد الرحمن يسن عبدالرحمن محمد النورج",
+        "national_id": "317081511001195",
+        "gender": "ذكر",
+        "year": "Year 3",
+        "last5": "01195",
+        "last4": "1195",
+        "login_code": "ips@01195"
+      },
+      {
+        "id": 20,
+        "name_ar": "ياسين عبده خليفه محمد المزين",
+        "national_id": "31705231202171",
+        "gender": "ذكر",
+        "year": "Year 3",
+        "last5": "02171",
+        "last4": "2171",
+        "login_code": "ips@02171"
+      },
+      {
+        "id": 27,
+        "name_ar": "حبيبة محمد فتحي العوضي أحمد",
+        "national_id": "31712051203486",
+        "gender": "أنثى",
+        "year": "Year 3",
+        "last5": "03486",
+        "last4": "3486",
+        "login_code": "ips@03486"
+      },
+      {
+        "id": 28,
+        "name_ar": "حليمه محمود توكل الدسوقي النشاوي",
+        "national_id": "31804241101282",
+        "gender": "أنثى",
+        "year": "Year 3",
+        "last5": "01282",
+        "last4": "1282",
+        "login_code": "ips@01282"
+      },
+      {
+        "id": 37,
+        "name_ar": "كارما ياسر عادل عبد الفتاح ابراهيم سليمان",
+        "national_id": "31705221201606",
+        "gender": "أنثى",
+        "year": "Year 3",
+        "last5": "01606",
+        "last4": "1606",
+        "login_code": "ips@01606"
+      },
+      {
+        "id": 40,
+        "name_ar": "ليلى اسلام رضا التابعي منعيم",
+        "national_id": "31805181100946",
+        "gender": "أنثى",
+        "year": "Year 3",
+        "last5": "00946",
+        "last4": "0946",
+        "login_code": "ips@00946"
+      },
+      {
+        "id": 43,
+        "name_ar": "ملك حسام نصر نصحي عبد الباقي",
+        "national_id": "31804291100821",
+        "gender": "أنثى",
+        "year": "Year 3",
+        "last5": "00821",
+        "last4": "0821",
+        "login_code": "ips@00821"
+      },
+      {
+        "id": 45,
+        "name_ar": "نور محمود محمد عبدالرازق إبراهيم العوضى",
+        "national_id": "31804031200547",
+        "gender": "أنثى",
+        "year": "Year 3",
+        "last5": "00547",
+        "last4": "0547",
+        "login_code": "ips@00547"
+      }
+    ],
+    "unmatched_pdf": [
+      {
+        "roll_no": 4,
+        "name_en": "Bajad Ahmed Wajdi Lotfi El-Sayed Khalil Fouda",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "48",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "163",
+          "max_total": 165,
+          "percentage": "99%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 9,
+        "name_en": "Yasin Asim Fouad Al-Saeed Fayad",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "48",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "45",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "158",
+          "max_total": 165,
+          "percentage": "96%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 15,
+        "name_en": "Halima Mahmoud Tawakkul Al-Dasouqi Al-Nashawi",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "47",
+            "percentage": "94%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "46",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "158",
+          "max_total": 165,
+          "percentage": "96%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 21,
+        "name_en": "Leila Islam Reda Al-Tabai Moneim",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "31",
+            "percentage": "62%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "31",
+            "percentage": "62%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "14.5",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "126.5",
+          "max_total": 165,
+          "percentage": "77%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 26,
+        "name_en": "Asser Ahmed Abdul Mowli Mohamed Ibrahim",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "43",
+            "percentage": "86%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "48.5",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "14.5",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "156",
+          "max_total": 165,
+          "percentage": "95%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 34,
+        "name_en": "Yasin Abdul Rahman Yasin Abdul Rahman Muhammad Al-Nourj",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "48",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "49.5",
+            "percentage": "99%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "162.5",
+          "max_total": 165,
+          "percentage": "98%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 35,
+        "name_en": "Yasseen Abdo Khalifa Mohamed Elmozayen",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          }
+        ],
+        "overall": {
+          "total_marks": "Absent",
+          "max_total": 165,
+          "percentage": null,
+          "grade": null,
+          "is_absent": true,
+          "is_error": true
+        }
+      },
+      {
+        "roll_no": 36,
+        "name_en": "Tala Muhammad Ahmad Muhammad Al-Aasi",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "48",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "39.5",
+            "percentage": "79%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "152.5",
+          "max_total": 165,
+          "percentage": "92%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 42,
+        "name_en": "Kenzie Ahmed Mohamed Abu El-Maati Mahmoud",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "165",
+          "max_total": 165,
+          "percentage": "100%",
+          "grade": "A*",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 45,
+        "name_en": "Malak Hossam Nasr Nasheh Abd Al-Baqi",
+        "year": "Year 3",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "18",
+            "percentage": "36%",
+            "grade": "F",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "27.5",
+            "percentage": "55%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "50",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "13",
+            "percentage": "87%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "108.5",
+          "max_total": 165,
+          "percentage": "66%",
+          "grade": "C",
+          "is_absent": false,
+          "is_error": false
+        }
+      }
+    ]
+  },
+  "Year 4": {
+    "excel_count": 29,
+    "pdf_count": 29,
+    "matches": [
+      {
+        "roll_no": 1,
+        "name_en": "Adham Mohamed Ahmed Ahmed Ahmed Al-Tabi",
+        "name_ar": "أدهم محمد احمد احمد احمد التابعي",
+        "national_id": "31709138801451",
+        "login_code": "ips@01451",
+        "confidence": 0.57,
+        "excel_id": 2,
+        "status": "matched"
+      },
+      {
+        "roll_no": 2,
+        "name_en": "Anas Islam Rashad Abdul Razak Muhammad",
+        "name_ar": "أنس اسلام رشاد عبد الرازق محمد",
+        "national_id": "31703181100813",
+        "login_code": "ips@00813",
+        "confidence": 0.5,
+        "excel_id": 3,
+        "status": "matched"
+      },
+      {
+        "roll_no": 3,
+        "name_en": "Saif Zakaria Muhammad Reda Zakaria Al-Suqaan",
+        "name_ar": "سيف زكريا محمد رضا زكريا السقعان",
+        "national_id": "31706081100894",
+        "login_code": "ips@00894",
+        "confidence": 0.43,
+        "excel_id": 6,
+        "status": "matched"
+      },
+      {
+        "roll_no": 4,
+        "name_en": "Amar Muhammad Taha Abdul Salam Abdu Sharif",
+        "name_ar": "عمار محمد طه عبد السلام عبده شريف",
+        "national_id": "31704091100911",
+        "login_code": "ips@00911",
+        "confidence": 0.71,
+        "excel_id": 9,
+        "status": "matched"
+      },
+      {
+        "roll_no": 5,
+        "name_en": "Omar Muhammad Muhammad Fahmy Yahya Khalil",
+        "name_ar": "عمر محمد محمد فهمى يحيى خليل",
+        "national_id": "31702011101057",
+        "login_code": "ips@01057",
+        "confidence": 0.67,
+        "excel_id": 11,
+        "status": "matched"
+      },
+      {
+        "roll_no": 6,
+        "name_en": "Yahya Muhammad Khattab Ahmed Ahmed Issa",
+        "name_ar": "يحيى محمد خطاب احمد احمد عيسى",
+        "national_id": "31612081501576",
+        "login_code": "ips@01576",
+        "confidence": 0.67,
+        "excel_id": 12,
+        "status": "matched"
+      },
+      {
+        "roll_no": 7,
+        "name_en": "Yahya Maysara Mohib Hussein Salim",
+        "name_ar": "يحيى ميسره محب حسين سليم",
+        "national_id": "31609301100356",
+        "login_code": "ips@00356",
+        "confidence": 0.6,
+        "excel_id": 13,
+        "status": "matched"
+      },
+      {
+        "roll_no": 8,
+        "name_en": "Yusuf Mohamed Sadiq Hassanien Abdul Muttalib",
+        "name_ar": "يوسف محمد صديق حسانين عبد المطلب",
+        "national_id": "31707071102259",
+        "login_code": "ips@02259",
+        "confidence": 0.5,
+        "excel_id": 14,
+        "status": "matched"
+      },
+      {
+        "roll_no": 9,
+        "name_en": "Aysel Ahmed Mohamed Ahmed Shoman",
+        "name_ar": "أيسل احمد محمد احمد شومان",
+        "national_id": "31705021203124",
+        "login_code": "ips@03124",
+        "confidence": 0.8,
+        "excel_id": 17,
+        "status": "matched"
+      },
+      {
+        "roll_no": 13,
+        "name_en": "Nour Mohamed Saleh Taha Youssef Elmetwally",
+        "name_ar": "نور محمد صالح طه يوسف المتولي",
+        "national_id": "31709261202007",
+        "login_code": "ips@02007",
+        "confidence": 0.67,
+        "excel_id": 28,
+        "status": "matched"
+      },
+      {
+        "roll_no": 14,
+        "name_en": "Nada Islam Mohammed Ali Khairallah",
+        "name_ar": "ندى اسلام محمد علي خير الله",
+        "national_id": "31608251100868",
+        "login_code": "ips@00868",
+        "confidence": 0.5,
+        "excel_id": 27,
+        "status": "matched"
+      },
+      {
+        "roll_no": 15,
+        "name_en": "Haya Mahmoud Mohammed Ahmed Salem Al-Masri",
+        "name_ar": "هيا محمود محمد أحمد سالم المصرى",
+        "national_id": "31701101100347",
+        "login_code": "ips@00347",
+        "confidence": 0.57,
+        "excel_id": 29,
+        "status": "matched"
+      },
+      {
+        "roll_no": 16,
+        "name_en": "Adam Mahmoud Hosni Al-Sayed Ahmed",
+        "name_ar": "أدم محمود حسني السيد أحمد",
+        "national_id": "31604278800874",
+        "login_code": "ips@00874",
+        "confidence": 0.5,
+        "excel_id": 1,
+        "status": "matched"
+      },
+      {
+        "roll_no": 18,
+        "name_en": "Salim Khaled Mahmoud Ahmed Amin Abdu",
+        "name_ar": "سليم خالد محمود احمد امين عبده",
+        "national_id": "31709211201115",
+        "login_code": "ips@01115",
+        "confidence": 0.67,
+        "excel_id": 5,
+        "status": "matched"
+      },
+      {
+        "roll_no": 19,
+        "name_en": "Ali Ahmed Al-Saeed Ibrahim Muhammad Muhammad Al-Ayouti",
+        "name_ar": "على أحمد السعيد إبراهيم محمد محمد العيوطي",
+        "national_id": "31601271203995",
+        "login_code": "ips@03995",
+        "confidence": 0.56,
+        "excel_id": 7,
+        "status": "matched"
+      },
+      {
+        "roll_no": 21,
+        "name_en": "Amr Muhammad Ahmed Essam Muhammad Al-Dweik",
+        "name_ar": "عمر محمد احمد عصام محمد الدويك",
+        "national_id": "31708281500156",
+        "login_code": "ips@00156",
+        "confidence": 0.71,
+        "excel_id": 10,
+        "status": "matched"
+      },
+      {
+        "roll_no": 22,
+        "name_en": "Younes Mahmoud Magdy Mahmoud Khalil",
+        "name_ar": "يونس محمود مجدي محمود خليل",
+        "national_id": "31709161100134",
+        "login_code": "ips@00134",
+        "confidence": 0.6,
+        "excel_id": 15,
+        "status": "matched"
+      },
+      {
+        "roll_no": 25,
+        "name_en": "Dalida Mahab Ahmed Kamel Ahmed Abdel-Moaty",
+        "name_ar": "داليدا مهاب أحمد كامل احمد عبد المعطي",
+        "national_id": "31605051100627",
+        "login_code": "ips@00627",
+        "confidence": 0.57,
+        "excel_id": 21,
+        "status": "matched"
+      },
+      {
+        "roll_no": 27,
+        "name_en": "Aliya Ibrahim Ashraf Ibrahim Abdu Al-Half",
+        "name_ar": "عاليه إبراهيم أشرف إبراهيم عبده الهلف",
+        "national_id": "31705191100141",
+        "login_code": "ips@00141",
+        "confidence": 0.43,
+        "excel_id": 24,
+        "status": "matched"
+      },
+      {
+        "roll_no": 28,
+        "name_en": "Karma Mohamed Abdelalim Mohamed Ahmed",
+        "name_ar": "كارما محمد عبدالعليم محمد احمد",
+        "national_id": "31710011101769",
+        "login_code": "ips@01769",
+        "confidence": 0.8,
+        "excel_id": 25,
+        "status": "matched"
+      }
+    ],
+    "unmatched_excel": [
+      {
+        "id": 4,
+        "name_ar": "أنس عبدالله شكرى مستجير الجمل",
+        "national_id": "31706011100919",
+        "gender": "ذكر",
+        "year": "Year 4",
+        "last5": "00919",
+        "last4": "0919",
+        "login_code": "ips@00919"
+      },
+      {
+        "id": 8,
+        "name_ar": "علي محمد ربيع الدسوقي المرسي",
+        "national_id": "31608078800433",
+        "gender": "ذكر",
+        "year": "Year 4",
+        "last5": "00433",
+        "last4": "0433",
+        "login_code": "ips@00433"
+      },
+      {
+        "id": 16,
+        "name_ar": "أسيل عبدالله شكرى مستجير الجمل",
+        "national_id": "31706011100641",
+        "gender": "أنثى",
+        "year": "Year 4",
+        "last5": "00641",
+        "last4": "0641",
+        "login_code": "ips@00641"
+      },
+      {
+        "id": 18,
+        "name_ar": "جودى محمد زكريا بهجات السعيد ريه",
+        "national_id": "31612101101383",
+        "gender": "أنثى",
+        "year": "Year 4",
+        "last5": "01383",
+        "last4": "1383",
+        "login_code": "ips@01383"
+      },
+      {
+        "id": 19,
+        "name_ar": "حلا محمد الامام عبدالمنعم الامام احمد",
+        "national_id": "31703311801707",
+        "gender": "أنثى",
+        "status": "محول",
+        "year": "Year 4",
+        "last5": "01707",
+        "last4": "1707",
+        "login_code": "ips@01707"
+      },
+      {
+        "id": 20,
+        "name_ar": "دارين وجدان بشير محمد الهوال",
+        "national_id": "31706241101027",
+        "gender": "أنثى",
+        "year": "Year 4",
+        "last5": "01027",
+        "last4": "1027",
+        "login_code": "ips@01027"
+      },
+      {
+        "id": 22,
+        "name_ar": "ريماس السيد صبحي حامد عبدالمنعم",
+        "national_id": "31706051204385",
+        "gender": "أنثى",
+        "year": "Year 4",
+        "last5": "04385",
+        "last4": "4385",
+        "login_code": "ips@04385"
+      },
+      {
+        "id": 23,
+        "name_ar": "سيلين محمد رزق رزق عبدالجواد نجم",
+        "national_id": "31702221100584",
+        "gender": "أنثى",
+        "year": "Year 4",
+        "last5": "00584",
+        "last4": "0584",
+        "login_code": "ips@00584"
+      },
+      {
+        "id": 26,
+        "name_ar": "ليلى علاء مجدي طه قصير الديل",
+        "national_id": "31706081100649",
+        "gender": "أنثى",
+        "year": "Year 4",
+        "last5": "00649",
+        "last4": "0649",
+        "login_code": "ips@00649"
+      }
+    ],
+    "unmatched_pdf": [
+      {
+        "roll_no": 10,
+        "name_en": "Hala Mohamed Al-Imam Abdul Moneim Al-Imam Ahmed",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "37.5",
+            "percentage": "75%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "27",
+            "percentage": "54%",
+            "grade": "E",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "47",
+            "percentage": "94%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "38.5",
+            "percentage": "77%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "14",
+            "percentage": "93%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "11",
+            "percentage": "73%",
+            "grade": "C",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "175",
+          "max_total": 230,
+          "percentage": "76%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 11,
+        "name_en": "Darin Wijdan Bashir Mohamed Al-Hawal",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "38",
+            "percentage": "76%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "26",
+            "percentage": "52%",
+            "grade": "E",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "48",
+            "percentage": "96%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "45",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "14.5",
+            "percentage": "97%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "13",
+            "percentage": "87%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "184.5",
+          "max_total": 230,
+          "percentage": "80%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 12,
+        "name_en": "Selin Mohamed Rizq Rizq Abduljawad Najm",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "43",
+            "percentage": "86%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "39",
+            "percentage": "78%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "42",
+            "percentage": "84%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "35.5",
+            "percentage": "71%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "14",
+            "percentage": "93%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "188.5",
+          "max_total": 230,
+          "percentage": "82%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 17,
+        "name_en": "Anas Abdullah Shukri Mustajir Al-Jamal",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "31",
+            "percentage": "62%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "40",
+            "percentage": "80%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "31",
+            "percentage": "62%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "22",
+            "percentage": "44%",
+            "grade": "E",
+            "is_absent": false
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "13",
+            "percentage": "87%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "13",
+            "percentage": "87%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "150",
+          "max_total": 230,
+          "percentage": "65%",
+          "grade": "C",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 20,
+        "name_en": "Ali Muhammad Rabi' Al-Desouqi Al-Mursi",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "41",
+            "percentage": "82%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "45",
+            "percentage": "90%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "46",
+            "percentage": "92%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "43",
+            "percentage": "86%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "13",
+            "percentage": "87%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "11",
+            "percentage": "73%",
+            "grade": "C",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "199",
+          "max_total": 230,
+          "percentage": "87%",
+          "grade": "A",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 23,
+        "name_en": "Asil Abdullah Shukri Mustajir Al-Jamal",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "32.5",
+            "percentage": "65%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "25",
+            "percentage": "50%",
+            "grade": "E",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "34",
+            "percentage": "68%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "31",
+            "percentage": "62%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "8",
+            "percentage": "53%",
+            "grade": "E",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "11",
+            "percentage": "73%",
+            "grade": "C",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "141.5",
+          "max_total": 230,
+          "percentage": "62%",
+          "grade": "D",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 24,
+        "name_en": "Joudi Mohamed Zakaria Bahjat Al-Saeed Riya",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": null,
+            "percentage": null,
+            "grade": null,
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          }
+        ],
+        "overall": {
+          "total_marks": "Absent",
+          "max_total": 230,
+          "percentage": null,
+          "grade": null,
+          "is_absent": true,
+          "is_error": true
+        }
+      },
+      {
+        "roll_no": 26,
+        "name_en": "Rimas Al-Sayed Sobhi Hamid Abdel-Monem",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "35",
+            "percentage": "70%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "33",
+            "percentage": "66%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "37",
+            "percentage": "74%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "Absent",
+            "percentage": null,
+            "grade": null,
+            "is_absent": true
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "15",
+            "percentage": "100%",
+            "grade": "A*",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "13",
+            "percentage": "87%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "133",
+          "max_total": 230,
+          "percentage": "58%",
+          "grade": "D",
+          "is_absent": false,
+          "is_error": false
+        }
+      },
+      {
+        "roll_no": 29,
+        "name_en": "Laila Alaa Magdy Taha Qaseer Al-Dail",
+        "year": "Year 4",
+        "subjects": [
+          {
+            "subject": "English",
+            "max_marks": 50,
+            "mark": "42",
+            "percentage": "84%",
+            "grade": "B",
+            "is_absent": false
+          },
+          {
+            "subject": "Maths",
+            "max_marks": 50,
+            "mark": "30",
+            "percentage": "60%",
+            "grade": "D",
+            "is_absent": false
+          },
+          {
+            "subject": "Science",
+            "max_marks": 50,
+            "mark": "33.5",
+            "percentage": "67%",
+            "grade": "C",
+            "is_absent": false
+          },
+          {
+            "subject": "Second L",
+            "max_marks": 50,
+            "mark": "42.5",
+            "percentage": "85%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Social",
+            "max_marks": 15,
+            "mark": "14",
+            "percentage": "93%",
+            "grade": "A",
+            "is_absent": false
+          },
+          {
+            "subject": "Arabic",
+            "max_marks": 15,
+            "mark": "14",
+            "percentage": "93%",
+            "grade": "A",
+            "is_absent": false
+          }
+        ],
+        "overall": {
+          "total_marks": "176",
+          "max_total": 230,
+          "percentage": "77%",
+          "grade": "B",
+          "is_absent": false,
+          "is_error": false
+        }
+      }
+    ]
+  }
+}
