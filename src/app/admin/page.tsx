@@ -152,11 +152,13 @@ export default function AdminDashboardPage() {
       <header className="bg-slate-900 border-b border-slate-800 sticky top-0 z-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center shadow-md">
-              <School className="w-5 h-5" />
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="IPS Logo"
+              className="w-9 h-9 object-contain rounded-full bg-white p-0.5 border border-slate-700 shadow-sm"
+            />
             <div>
-              <h1 className="text-base font-bold text-white tracking-tight">IPS Administration Panel</h1>
+              <h1 className="text-base font-bold text-white tracking-tight">IPS New Mansoura</h1>
               <span className="text-xs text-slate-400">Examinations & Verification Dashboard</span>
             </div>
           </div>

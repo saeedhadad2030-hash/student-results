@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { ShieldCheck, Lock, User, ArrowRight, AlertCircle, School } from 'lucide-react';
+import { Lock, User, ArrowRight, AlertCircle } from 'lucide-react';
 
 export default function AdminLoginPage() {
   const router = useRouter();
@@ -44,11 +44,13 @@ export default function AdminLoginPage() {
     <div className="min-h-screen flex flex-col justify-center items-center bg-slate-900 text-slate-100 p-4">
       <div className="max-w-md w-full bg-slate-800/90 border border-slate-700 rounded-3xl p-8 shadow-2xl backdrop-blur-xl">
         <div className="flex flex-col items-center text-center mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-blue-600/20 border border-blue-500/40 flex items-center justify-center text-blue-400 mb-3 shadow-lg shadow-blue-500/10">
-            <ShieldCheck className="w-8 h-8" />
-          </div>
-          <h1 className="text-2xl font-black text-white">Staff Administration</h1>
-          <p className="text-xs text-slate-400 mt-1">IPS Examination & Results Management</p>
+          <img
+            src="/logo.jpg"
+            alt="IPS Logo"
+            className="w-16 h-16 rounded-full bg-white p-1 mb-3 shadow-lg border border-slate-600 object-contain"
+          />
+          <h1 className="text-2xl font-black text-white">IPS New Mansoura</h1>
+          <p className="text-xs text-blue-400 font-semibold uppercase tracking-wider mt-0.5">Staff Administration Portal</p>
         </div>
 
         {error && (
@@ -114,13 +116,11 @@ export default function AdminLoginPage() {
         </form>
 
         <div className="mt-6 pt-5 border-t border-slate-700/60 text-center">
-          <a href="/" className="text-xs text-slate-400 hover:text-blue-400 transition flex items-center justify-center gap-1.5">
-            <School className="w-3.5 h-3.5" />
-            <span>Return to Student Results Portal</span>
+          <a href="/" className="text-xs text-slate-400 hover:text-blue-400 transition inline-block">
+            ← Return to Student Portal
           </a>
         </div>
       </div>
     </div>
   );
 }
-

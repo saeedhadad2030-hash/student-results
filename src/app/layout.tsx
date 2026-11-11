@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Student Results Portal | Mid-term Examinations',
-  description: 'Official Examination Results Portal for International Public Schools',
+  title: 'IPS New Mansoura | Student Examination Results Portal',
+  description: 'Official Examination Results Portal for International Public School - New Mansoura',
 };
 
 export default function RootLayout({

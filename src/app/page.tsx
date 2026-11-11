@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { AlertCircle, ArrowRight, ShieldCheck, Info, Calendar } from 'lucide-react';
+import { AlertCircle, ArrowRight, Info, Calendar } from 'lucide-react';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -122,30 +122,39 @@ export default function LoginPage() {
         <div className="absolute bottom-0 right-0 w-[30rem] h-[30rem] bg-blue-100/40 rounded-full blur-3xl translate-x-1/4 translate-y-1/4"></div>
       </div>
 
-      <main className="relative z-10 w-full max-w-[460px]">
-        <div className="bg-white border border-[#1c345c]/10 rounded-[24px] p-8 sm:p-11 shadow-[0_16px_45px_rgba(22,44,81,0.09)] text-center">
-          {/* Logo Mark */}
-          <div className="w-14 h-14 mx-auto mb-5 rounded-[17px] bg-gradient-to-br from-[#1d66db] to-[#142e58] text-white flex items-center justify-center font-bold text-lg tracking-tight shadow-md shadow-blue-500/20">
-            SR
+      <main className="relative z-10 w-full max-w-[480px]">
+        <div className="bg-white border border-[#1c345c]/10 rounded-[24px] p-7 sm:p-10 shadow-[0_16px_45px_rgba(22,44,81,0.09)] text-center">
+          {/* Official School Logo */}
+          <div className="mb-4 flex justify-center">
+            <img
+              src="/logo.jpg"
+              alt="IPS New Mansoura - International Public Schools"
+              className="w-24 h-24 sm:w-28 sm:h-28 object-contain rounded-full bg-white p-1 shadow-md border border-slate-100 hover:scale-105 transition-transform"
+            />
           </div>
 
-          <p className="text-[0.72rem] font-bold tracking-[0.13em] uppercase text-[#5273a2] mb-1.5">
-            ACADEMIC PORTAL
+          <p className="text-[0.72rem] font-bold tracking-[0.15em] uppercase text-[#5273a2] mb-1">
+            ACADEMIC RESULTS PORTAL
           </p>
 
-          <h1 className="text-3xl sm:text-[2.2rem] font-bold text-[#14233b] tracking-tight mb-2 font-serif">
-            Student Results
+          {/* School Name as Main Title */}
+          <h1 className="text-2xl sm:text-[1.85rem] font-bold text-[#14233b] tracking-tight mb-1 font-serif">
+            IPS New Mansoura
           </h1>
 
-          <p className="text-[#63718a] text-[14px] leading-relaxed mb-7 max-w-xs mx-auto">
-            Enter your private result code to view your examination report.
+          <p className="text-xs font-semibold text-blue-700 uppercase tracking-wider mb-2">
+            International Public School
+          </p>
+
+          <p className="text-[#63718a] text-[13.5px] leading-relaxed mb-6 max-w-xs mx-auto">
+            Enter your private student code to view your official examination results report.
           </p>
 
           {!collisionData.show ? (
             /* Main Login Form */
             <form onSubmit={handleLogin} className="space-y-4 text-left">
               <div>
-                <label htmlFor="student-code" className="block text-[0.88rem] font-semibold text-[#334868] mb-2">
+                <label htmlFor="student-code" className="block text-[0.85rem] font-semibold text-[#334868] mb-1.5">
                   Student Code
                 </label>
                 <input
@@ -264,8 +273,8 @@ export default function LoginPage() {
         </div>
 
         {/* Footer info */}
-        <div className="mt-6 text-center text-xs text-slate-400">
-          International Public School • Mid-term Examination Reports
+        <div className="mt-6 text-center text-xs text-slate-500">
+          IPS New Mansoura • Official Examination Results
         </div>
       </main>
     </div>

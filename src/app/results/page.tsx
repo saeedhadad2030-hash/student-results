@@ -3,16 +3,13 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import {
-  GraduationCap,
   Award,
   BookOpen,
   Calendar,
   LogOut,
   Printer,
   ShieldCheck,
-  CheckCircle2,
   AlertTriangle,
-  School,
   Sparkles,
 } from 'lucide-react';
 import { SubjectResult, OverallResult } from '@/types';
@@ -70,7 +67,7 @@ export default function ResultsPage() {
   // Helper for grade color styling
   const getGradeBadgeStyle = (grade: string | null) => {
     if (!grade || grade === 'Absent' || grade === 'Not Available' || grade === 'N/A') {
-      return 'bg-slate-100 text-slate-700 border-slate-300 dark:bg-slate-800 dark:text-slate-300';
+      return 'bg-slate-100 text-slate-700 border-slate-300';
     }
     const g = grade.toUpperCase();
     if (g === 'A*') {
@@ -149,11 +146,13 @@ export default function ResultsPage() {
       <nav className="no-print bg-white/90 backdrop-blur-md border-b border-slate-200 sticky top-0 z-30 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-lg bg-blue-600 text-white flex items-center justify-center shadow-md shadow-blue-500/20">
-              <School className="w-5 h-5" />
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="IPS Logo"
+              className="w-10 h-10 object-contain rounded-full bg-white p-0.5 border border-slate-200 shadow-sm"
+            />
             <div>
-              <span className="text-sm font-bold tracking-tight text-slate-900">International Public School</span>
+              <span className="text-sm font-bold tracking-tight text-slate-900">IPS New Mansoura</span>
               <span className="hidden sm:inline-block text-xs text-slate-500 ml-2 font-medium">Results Portal</span>
             </div>
           </div>
@@ -186,21 +185,23 @@ export default function ResultsPage() {
           {/* School Badge Header */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-6 border-b border-slate-100">
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center shadow-lg shadow-blue-600/20 flex-shrink-0">
-                <GraduationCap className="w-8 h-8" />
-              </div>
+              <img
+                src="/logo.jpg"
+                alt="IPS New Mansoura Logo"
+                className="w-16 h-16 sm:w-20 sm:h-20 object-contain rounded-full bg-white p-1 border border-slate-200 shadow-md flex-shrink-0"
+              />
               <div>
                 <h1 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                  International Public School
+                  IPS New Mansoura
                 </h1>
                 <p className="text-xs sm:text-sm text-blue-700 font-semibold tracking-wide uppercase">
-                  Official Statement of Examination Results
+                  International Public School • Mid-term Examination Results
                 </p>
               </div>
             </div>
 
             <div className="flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto">
-              <span className="px-3 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-800 border border-blue-200 uppercase tracking-wider">
+              <span className="px-3.5 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-800 border border-blue-200 uppercase tracking-wider">
                 {student.year}
               </span>
               <span className="text-xs text-slate-500 sm:mt-1 font-mono">Candidate #{student.roll_no}</span>
@@ -451,4 +452,3 @@ export default function ResultsPage() {
     </div>
   );
 }
-
