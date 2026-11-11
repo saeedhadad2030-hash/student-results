@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { GraduationCap, KeyRound, ShieldCheck, AlertCircle, ArrowRight, School, Calendar, Info } from 'lucide-react';
+import { AlertCircle, ArrowRight, ShieldCheck, Info, Calendar } from 'lucide-react';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -30,7 +30,7 @@ export default function LoginPage() {
 
     let cleanCode = code.trim().toLowerCase();
     if (!cleanCode) {
-      setError('Please enter your login code.');
+      setError('Please enter your student code.');
       return;
     }
 
@@ -40,7 +40,7 @@ export default function LoginPage() {
     }
 
     if (!cleanCode.startsWith('ips@')) {
-      setError('Invalid format. Code must start with "ips@" followed by 5 digits (e.g. ips@12345).');
+      setError('Invalid format. Code must be in the format ips@12345 (last 5 digits of National ID).');
       return;
     }
 
@@ -56,13 +56,12 @@ export default function LoginPage() {
       const data = await res.json();
 
       if (!res.ok) {
-        setError(data.error || 'Invalid Login Code');
+        setError(data.error || 'Invalid Login Code.');
         setLoading(false);
         return;
       }
 
       if (data.collision) {
-        // Handle code collision securely
         setCollisionData({
           show: true,
           code: cleanCode,
@@ -77,7 +76,7 @@ export default function LoginPage() {
         router.push('/results');
       }
     } catch (err) {
-      setError('Unable to connect to the server. Please check your network.');
+      setError('Unable to connect to the server. Please check your connection.');
       setLoading(false);
     }
   };
@@ -101,7 +100,7 @@ export default function LoginPage() {
       const data = await res.json();
 
       if (!res.ok) {
-        setError(data.error || 'Verification failed. Please check your year and birth date.');
+        setError(data.error || 'Verification failed. Please check your academic year and birth date.');
         setSecLoading(false);
         return;
       }
@@ -116,119 +115,87 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 text-slate-100 p-4 sm:p-6 md:p-8">
+    <div className="min-h-screen flex flex-col justify-center items-center px-4 py-8 bg-[#f5f7fb] text-[#14233b] relative overflow-hidden font-sans">
       {/* Background ambient lighting */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -left-40 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 -right-40 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl"></div>
+      <div className="fixed inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute top-0 left-0 w-[35rem] h-[35rem] bg-[#dce9ff]/60 rounded-full blur-3xl -translate-x-1/3 -translate-y-1/3"></div>
+        <div className="absolute bottom-0 right-0 w-[30rem] h-[30rem] bg-blue-100/40 rounded-full blur-3xl translate-x-1/4 translate-y-1/4"></div>
       </div>
 
-      {/* Header bar */}
-      <header className="relative z-10 max-w-5xl mx-auto w-full flex items-center justify-between py-2">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-blue-600/30 border border-blue-400/30 flex items-center justify-center shadow-lg shadow-blue-500/10">
-            <School className="w-5 h-5 text-blue-400" />
-          </div>
-          <div>
-            <h1 className="text-sm font-bold tracking-wider text-slate-200 uppercase">International Public School</h1>
-            <p className="text-xs text-blue-300 font-medium">Academic Portal • IPS</p>
-          </div>
-        </div>
-
-        <a
-          href="/admin/login"
-          className="text-xs text-slate-400 hover:text-white transition-colors flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-700/60 hover:border-slate-600 bg-slate-800/40"
-        >
-          <ShieldCheck className="w-3.5 h-3.5 text-blue-400" />
-          <span>Staff Portal</span>
-        </a>
-      </header>
-
-      {/* Main Login Card */}
-      <main className="relative z-10 max-w-md w-full mx-auto my-auto">
-        <div className="bg-slate-900/80 backdrop-blur-xl border border-slate-700/60 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-black/50">
-          {/* Logo Crest */}
-          <div className="flex flex-col items-center text-center mb-6">
-            <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-500 p-0.5 shadow-xl shadow-blue-500/25 mb-4 flex items-center justify-center">
-              <div className="w-full h-full bg-slate-900 rounded-[14px] flex items-center justify-center">
-                <GraduationCap className="w-8 h-8 text-blue-400" />
-              </div>
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Student Results</h2>
-            <p className="text-sm text-slate-400 mt-1">Mid-term Examination Results</p>
+      <main className="relative z-10 w-full max-w-[460px]">
+        <div className="bg-white border border-[#1c345c]/10 rounded-[24px] p-8 sm:p-11 shadow-[0_16px_45px_rgba(22,44,81,0.09)] text-center">
+          {/* Logo Mark */}
+          <div className="w-14 h-14 mx-auto mb-5 rounded-[17px] bg-gradient-to-br from-[#1d66db] to-[#142e58] text-white flex items-center justify-center font-bold text-lg tracking-tight shadow-md shadow-blue-500/20">
+            SR
           </div>
 
-          {error && (
-            <div className="mb-5 p-3.5 rounded-xl bg-rose-500/10 border border-rose-500/30 flex items-start gap-3 text-rose-300 text-sm animate-shake">
-              <AlertCircle className="w-5 h-5 flex-shrink-0 mt-0.5 text-rose-400" />
-              <div className="leading-snug">{error}</div>
-            </div>
-          )}
+          <p className="text-[0.72rem] font-bold tracking-[0.13em] uppercase text-[#5273a2] mb-1.5">
+            ACADEMIC PORTAL
+          </p>
+
+          <h1 className="text-3xl sm:text-[2.2rem] font-bold text-[#14233b] tracking-tight mb-2 font-serif">
+            Student Results
+          </h1>
+
+          <p className="text-[#63718a] text-[14px] leading-relaxed mb-7 max-w-xs mx-auto">
+            Enter your private result code to view your examination report.
+          </p>
 
           {!collisionData.show ? (
-            /* Normal Login Form */
-            <form onSubmit={handleLogin} className="space-y-4">
+            /* Main Login Form */
+            <form onSubmit={handleLogin} className="space-y-4 text-left">
               <div>
-                <label htmlFor="student-code" className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
-                  Student Login Code
+                <label htmlFor="student-code" className="block text-[0.88rem] font-semibold text-[#334868] mb-2">
+                  Student Code
                 </label>
-                <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-                    <KeyRound className="w-5 h-5 text-blue-400" />
-                  </div>
-                  <input
-                    id="student-code"
-                    type="text"
-                    value={code}
-                    onChange={(e) => setCode(e.target.value)}
-                    placeholder="ips@12345"
-                    className="w-full pl-11 pr-4 py-3.5 bg-slate-800/80 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-base font-mono transition"
-                    autoComplete="off"
-                    autoFocus
-                  />
-                </div>
-                <div className="flex items-center gap-1.5 mt-2 text-xs text-slate-400">
-                  <Info className="w-3.5 h-3.5 text-blue-400 flex-shrink-0" />
-                  <span>Format: <code className="text-blue-300 font-mono">ips@12345</code> (last 5 digits of National ID)</span>
-                </div>
+                <input
+                  id="student-code"
+                  type="text"
+                  value={code}
+                  onChange={(e) => setCode(e.target.value)}
+                  placeholder="ips@12345"
+                  className="w-full px-3.5 py-3 bg-white border border-[#d4ddeb] rounded-[10px] text-[#14233b] placeholder-slate-400 focus:outline-none focus:border-[#276de8] focus:ring-4 focus:ring-[#276de8]/15 text-base transition font-mono"
+                  autoComplete="off"
+                  autoFocus
+                />
               </div>
 
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-3.5 px-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold rounded-xl shadow-lg shadow-blue-600/30 flex items-center justify-center gap-2 transition disabled:opacity-60 disabled:cursor-not-allowed group text-base"
+                className="w-full py-3 px-4 bg-[#276de8] hover:bg-[#1b5dca] text-white font-bold rounded-[10px] shadow-sm flex items-center justify-center gap-2 transition hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-60 disabled:cursor-wait text-[15px]"
               >
                 {loading ? (
                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                 ) : (
                   <>
                     <span>Login</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                    <span aria-hidden="true">→</span>
                   </>
                 )}
               </button>
             </form>
           ) : (
-            /* Secondary Verification Form for Duplicate Codes */
-            <form onSubmit={handleSecondaryVerify} className="space-y-4">
-              <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-xs text-amber-200">
-                <p className="font-semibold mb-1 flex items-center gap-1.5">
-                  <AlertCircle className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                  Security Verification Required
+            /* Duplicate Code Secondary Verification Form */
+            <form onSubmit={handleSecondaryVerify} className="space-y-4 text-left">
+              <div className="p-3.5 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900">
+                <p className="font-bold mb-1 flex items-center gap-1.5 text-amber-800">
+                  <AlertCircle className="w-4 h-4 text-amber-600 flex-shrink-0" />
+                  Additional Verification Required
                 </p>
-                <p>
-                  This login code is associated with multiple registered students across academic cohorts. Please confirm your details below.
+                <p className="leading-relaxed">
+                  This code is shared across different cohorts. Please select your Academic Year and Birth Date to view your report.
                 </p>
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+                <label className="block text-xs font-bold text-[#334868] uppercase tracking-wider mb-1.5">
                   Academic Year
                 </label>
                 <select
                   value={selectedYear}
                   onChange={(e) => setSelectedYear(e.target.value)}
-                  className="w-full px-3.5 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-3.5 py-2.5 bg-white border border-[#d4ddeb] rounded-lg text-sm text-[#14233b] focus:outline-none focus:border-[#276de8]"
                 >
                   <option value="Year 1">Year 1</option>
                   <option value="Year 2">Year 2</option>
@@ -238,19 +205,16 @@ export default function LoginPage() {
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
-                  Date of Birth (YYYY-MM-DD or DD-MM-YYYY)
+                <label className="block text-xs font-bold text-[#334868] uppercase tracking-wider mb-1.5">
+                  Date of Birth (YYYY-MM-DD)
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-                    <Calendar className="w-4 h-4 text-blue-400" />
-                  </div>
                   <input
                     type="text"
                     value={birthDate}
                     onChange={(e) => setBirthDate(e.target.value)}
                     placeholder="YYYY-MM-DD (e.g. 2020-02-26)"
-                    className="w-full pl-10 pr-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white placeholder-slate-500 text-sm font-mono focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-3.5 py-2.5 bg-white border border-[#d4ddeb] rounded-lg text-sm font-mono text-[#14233b] focus:outline-none focus:border-[#276de8]"
                   />
                 </div>
               </div>
@@ -262,44 +226,48 @@ export default function LoginPage() {
                     setCollisionData({ show: false, code: '', candidates: [] });
                     setError(null);
                   }}
-                  className="flex-1 py-3 px-3 border border-slate-700 hover:bg-slate-800 text-slate-300 rounded-xl text-sm font-medium transition"
+                  className="flex-1 py-2.5 px-3 border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-lg text-xs font-semibold transition"
                 >
                   Back
                 </button>
                 <button
                   type="submit"
                   disabled={secLoading}
-                  className="flex-[2] py-3 px-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-sm font-semibold flex items-center justify-center gap-2 transition"
+                  className="flex-[2] py-2.5 px-4 bg-[#276de8] hover:bg-[#1b5dca] text-white rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition"
                 >
                   {secLoading ? (
                     <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                   ) : (
-                    <>
-                      <span>Verify & Access</span>
-                      <ArrowRight className="w-4 h-4" />
-                    </>
+                    <span>Verify & Continue →</span>
                   )}
                 </button>
               </div>
             </form>
           )}
 
-          {/* Academic Years Notice */}
-          <div className="mt-6 pt-5 border-t border-slate-800 flex items-center justify-center gap-3 text-xs text-slate-500">
-            <span>Supported:</span>
-            <span className="px-2 py-0.5 rounded bg-slate-800/80 text-slate-300 font-medium">Year 1</span>
-            <span className="px-2 py-0.5 rounded bg-slate-800/80 text-slate-300 font-medium">Year 2</span>
-            <span className="px-2 py-0.5 rounded bg-slate-800/80 text-slate-300 font-medium">Year 3</span>
-            <span className="px-2 py-0.5 rounded bg-slate-800/80 text-slate-300 font-medium">Year 4</span>
+          {/* Error Message */}
+          {error && (
+            <p className="mt-4 text-xs font-bold text-rose-600 leading-normal" role="alert">
+              {error}
+            </p>
+          )}
+
+          {/* Admin Access Link */}
+          <div className="mt-6 pt-5 border-t border-slate-100">
+            <a
+              href="/admin/login"
+              className="inline-block text-[13px] font-semibold text-[#406da9] hover:text-[#163f78] transition"
+            >
+              Administrator access
+            </a>
           </div>
         </div>
-      </main>
 
-      {/* Footer */}
-      <footer className="relative z-10 max-w-md w-full mx-auto text-center text-xs text-slate-500 py-3">
-        <p>© 2025 International Public School. All rights reserved.</p>
-        <p className="mt-1 text-slate-600">Official student assessment and reporting portal</p>
-      </footer>
+        {/* Footer info */}
+        <div className="mt-6 text-center text-xs text-slate-400">
+          International Public School • Mid-term Examination Reports
+        </div>
+      </main>
     </div>
   );
 }
