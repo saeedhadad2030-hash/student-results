@@ -12,7 +12,7 @@ import {
   AlertTriangle,
   Sparkles,
 } from 'lucide-react';
-import { SubjectResult, OverallResult } from '@/types';
+import { SubjectResult, OverallResult, DisplaySettings } from '@/types';
 
 interface StudentData {
   id: string;
@@ -21,11 +21,22 @@ interface StudentData {
   year: string;
   subjects: SubjectResult[];
   overall: OverallResult;
+  terms?: Record<string, { subjects: SubjectResult[]; overall: OverallResult }>;
 }
 
 export default function ResultsPage() {
   const router = useRouter();
   const [student, setStudent] = useState<StudentData | null>(null);
+  const [displaySettings, setDisplaySettings] = useState<DisplaySettings>({
+    isPublished: true,
+    showMarks: true,
+    showPercentage: true,
+    showGrade: true,
+    showOverall: true,
+    activeTerm: 'Mid-term Examination',
+    availableTerms: ['Mid-term Examination', 'Final Examination'],
+  });
+  const [selectedTerm, setSelectedTerm] = useState<string>('Mid-term Examination');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -45,6 +56,10 @@ export default function ResultsPage() {
       .then((data) => {
         if (data && data.student) {
           setStudent(data.student);
+        }
+        if (data && data.displaySettings) {
+          setDisplaySettings(data.displaySettings);
+          setSelectedTerm(data.displaySettings.activeTerm || 'Mid-term Examination');
         }
       })
       .catch((err) => {
@@ -140,10 +155,18 @@ export default function ResultsPage() {
     );
   }
 
+  // Active subjects & overall based on selected term
+  const termData = (student.terms && student.terms[selectedTerm]) || {
+    subjects: student.subjects,
+    overall: student.overall,
+  };
+  const activeSubjects = termData.subjects;
+  const activeOverall = termData.overall;
+
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-800 pb-16 print:bg-white print:p-0 print:pb-0">
+    <div className="min-h-screen bg-slate-100 text-slate-800 pb-16 print:bg-white print:p-0 print:pb-0 font-sans">
       {/* Top Navigation Bar - Hidden on print */}
-      <nav className="no-print bg-white/90 backdrop-blur-md border-b border-slate-200 sticky top-0 z-30 shadow-sm">
+      <nav className="no-print bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-0 z-30 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
@@ -195,7 +218,7 @@ export default function ResultsPage() {
                   IPS New Mansoura
                 </h1>
                 <p className="text-xs sm:text-sm text-blue-700 font-semibold tracking-wide uppercase">
-                  International Public School • Mid-term Examination Results
+                  International Public School • {displaySettings.activeTerm || 'Examination Results'}
                 </p>
               </div>
             </div>
@@ -217,13 +240,35 @@ export default function ResultsPage() {
               </h2>
             </div>
             <div>
-              <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Academic Period</span>
+              <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Examination Period</span>
               <p className="text-sm font-semibold text-slate-800 mt-0.5 flex items-center gap-1.5">
                 <Calendar className="w-4 h-4 text-blue-600" />
-                <span>Mid-term Assessment</span>
+                <span>{displaySettings.activeTerm || 'Official Assessment'}</span>
               </p>
             </div>
           </div>
+
+          {/* Optional Term Switcher if student has multiple terms */}
+          {displaySettings.availableTerms && displaySettings.availableTerms.length > 1 && (
+            <div className="no-print mt-4 pt-4 border-t border-slate-100 flex items-center gap-2">
+              <span className="text-xs font-bold text-slate-500">Term:</span>
+              <div className="flex gap-1.5">
+                {displaySettings.availableTerms.map((t) => (
+                  <button
+                    key={t}
+                    onClick={() => setSelectedTerm(t)}
+                    className={`px-3 py-1 rounded-lg text-xs font-semibold transition ${
+                      selectedTerm === t
+                        ? 'bg-blue-600 text-white shadow-sm'
+                        : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+                    }`}
+                  >
+                    {t}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Examination Title Section */}
@@ -233,13 +278,13 @@ export default function ResultsPage() {
             <h3 className="text-lg font-bold text-slate-900">Subject Breakdown</h3>
           </div>
           <span className="text-xs text-slate-500 font-medium">
-            {student.subjects.length} Assessed Subjects
+            {activeSubjects.length} Assessed Subjects
           </span>
         </div>
 
         {/* Subjects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-          {student.subjects.map((subj, index) => {
+          {activeSubjects.map((subj, index) => {
             const isAbsent = subj.is_absent || subj.mark === 'Absent';
             const pctNum = isAbsent ? 0 : parsePercentNumber(subj.percentage);
 
@@ -251,184 +296,210 @@ export default function ResultsPage() {
                 <div className="flex items-start justify-between mb-3">
                   <div>
                     <h4 className="text-base font-bold text-slate-900">{subj.subject}</h4>
-                    <span className="text-xs text-slate-400 font-medium">
-                      Maximum: {subj.max_marks} marks
-                    </span>
-                  </div>
-
-                  {/* Grade Badge */}
-                  <div
-                    className={`px-3 py-1 rounded-xl text-sm font-extrabold border ${getGradeBadgeStyle(
-                      subj.grade
-                    )}`}
-                  >
-                    {isAbsent ? 'ABSENT' : subj.grade || 'N/A'}
-                  </div>
-                </div>
-
-                {/* Score & Percentage */}
-                <div className="flex items-baseline justify-between mt-4 mb-2">
-                  <div className="flex items-baseline gap-1">
-                    <span className="text-2xl font-black text-slate-900 tracking-tight">
-                      {isAbsent ? 'Absent' : subj.mark ?? 'N/A'}
-                    </span>
-                    {!isAbsent && (
-                      <span className="text-xs text-slate-400 font-semibold">/ {subj.max_marks}</span>
+                    {displaySettings.showMarks && (
+                      <span className="text-xs text-slate-400 font-medium">
+                        Maximum: {subj.max_marks} marks
+                      </span>
                     )}
                   </div>
 
-                  <span className="text-sm font-bold text-slate-700">
-                    {isAbsent ? '—' : subj.percentage || 'N/A'}
-                  </span>
+                  {/* Grade Badge (conditionally rendered) */}
+                  {displaySettings.showGrade && (
+                    <div
+                      className={`px-3 py-1 rounded-xl text-sm font-extrabold border ${getGradeBadgeStyle(
+                        subj.grade
+                      )}`}
+                    >
+                      {isAbsent ? 'ABSENT' : subj.grade || 'N/A'}
+                    </div>
+                  )}
                 </div>
 
+                {/* Score & Percentage */}
+                {(displaySettings.showMarks || displaySettings.showPercentage) && (
+                  <div className="flex items-baseline justify-between mt-4 mb-2">
+                    {/* Marks Obtained */}
+                    {displaySettings.showMarks ? (
+                      <div className="flex items-baseline gap-1">
+                        <span className="text-2xl font-black text-slate-900 tracking-tight">
+                          {isAbsent ? 'Absent' : subj.mark ?? 'N/A'}
+                        </span>
+                        {!isAbsent && (
+                          <span className="text-xs text-slate-400 font-semibold">/ {subj.max_marks}</span>
+                        )}
+                      </div>
+                    ) : (
+                      <div />
+                    )}
+
+                    {/* Percentage */}
+                    {displaySettings.showPercentage && (
+                      <span className="text-base font-bold text-slate-700">
+                        {isAbsent ? '—' : subj.percentage || 'N/A'}
+                      </span>
+                    )}
+                  </div>
+                )}
+
                 {/* Percentage Bar */}
-                <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden mt-2">
-                  <div
-                    className={`h-full rounded-full transition-all duration-700 ${getProgressBarColor(
-                      subj.grade
-                    )}`}
-                    style={{ width: `${pctNum}%` }}
-                  />
-                </div>
+                {displaySettings.showPercentage && (
+                  <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden mt-2">
+                    <div
+                      className={`h-full rounded-full transition-all duration-700 ${getProgressBarColor(
+                        subj.grade
+                      )}`}
+                      style={{ width: `${pctNum}%` }}
+                    />
+                  </div>
+                )}
               </div>
             );
           })}
         </div>
 
-        {/* Overall Performance Section */}
-        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl relative overflow-hidden mb-8 border border-slate-700/50">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
+        {/* Overall Performance Section (Conditionally rendered by showOverall) */}
+        {displaySettings.showOverall && (
+          <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl relative overflow-hidden mb-8 border border-slate-700/50">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-700/60">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-2xl bg-blue-600/30 border border-blue-400/40 flex items-center justify-center text-blue-400 shadow-lg shadow-blue-500/20">
-                  <Award className="w-7 h-7" />
+            <div className="relative z-10">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-slate-700/60">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-2xl bg-blue-600/30 border border-blue-400/40 flex items-center justify-center text-blue-400 shadow-lg shadow-blue-500/20">
+                    <Award className="w-7 h-7" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-extrabold text-white tracking-tight">Overall Performance</h3>
+                    <p className="text-xs text-slate-400 font-medium">Composite Academic Evaluation</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-extrabold text-white tracking-tight">Overall Performance</h3>
-                  <p className="text-xs text-slate-400 font-medium">Composite Academic Evaluation</p>
-                </div>
+
+                {/* Overall Grade Pill */}
+                {displaySettings.showGrade && (
+                  <div className="flex items-center gap-3">
+                    <div className="text-right">
+                      <span className="text-xs text-slate-400 uppercase tracking-wider block">Overall Grade</span>
+                      <span className="text-xs font-semibold text-blue-300">Scale A* - F</span>
+                    </div>
+                    <div
+                      className={`w-14 h-14 rounded-2xl flex items-center justify-center text-2xl font-black border shadow-lg ${
+                        activeOverall.grade === 'A*'
+                          ? 'bg-emerald-500/20 text-emerald-400 border-emerald-400/30'
+                          : activeOverall.grade === 'A'
+                          ? 'bg-blue-500/20 text-blue-400 border-blue-400/30'
+                          : activeOverall.grade === 'B'
+                          ? 'bg-cyan-500/20 text-cyan-400 border-cyan-400/30'
+                          : activeOverall.grade === 'C'
+                          ? 'bg-amber-500/20 text-amber-400 border-amber-400/30'
+                          : activeOverall.grade === 'D'
+                          ? 'bg-orange-500/20 text-orange-400 border-orange-400/30'
+                          : activeOverall.grade === 'E'
+                          ? 'bg-rose-500/20 text-rose-400 border-rose-400/30'
+                          : 'bg-slate-800 text-slate-300 border-slate-700'
+                      }`}
+                    >
+                      {activeOverall.is_absent ? 'ABS' : activeOverall.grade || 'N/A'}
+                    </div>
+                  </div>
+                )}
               </div>
 
-              {/* Overall Grade Pill */}
-              <div className="flex items-center gap-3">
-                <div className="text-right">
-                  <span className="text-xs text-slate-400 uppercase tracking-wider block">Overall Grade</span>
-                  <span className="text-xs font-semibold text-blue-300">
-                    Scale A* - F
-                  </span>
-                </div>
-                <div
-                  className={`w-14 h-14 rounded-2xl flex items-center justify-center text-2xl font-black border shadow-lg ${
-                    student.overall.grade === 'A*'
-                      ? 'bg-emerald-500/20 text-emerald-400 border-emerald-400/30'
-                      : student.overall.grade === 'A'
-                      ? 'bg-blue-500/20 text-blue-400 border-blue-400/30'
-                      : student.overall.grade === 'B'
-                      ? 'bg-cyan-500/20 text-cyan-400 border-cyan-400/30'
-                      : student.overall.grade === 'C'
-                      ? 'bg-amber-500/20 text-amber-400 border-amber-400/30'
-                      : student.overall.grade === 'D'
-                      ? 'bg-orange-500/20 text-orange-400 border-orange-400/30'
-                      : student.overall.grade === 'E'
-                      ? 'bg-rose-500/20 text-rose-400 border-rose-400/30'
-                      : 'bg-slate-800 text-slate-300 border-slate-700'
-                  }`}
-                >
-                  {student.overall.is_absent ? 'ABS' : student.overall.grade || 'N/A'}
-                </div>
-              </div>
-            </div>
+              {/* Overall Stats Figures */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6">
+                {displaySettings.showMarks && (
+                  <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60">
+                    <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Total Marks</span>
+                    <div className="flex items-baseline gap-1.5 mt-1">
+                      <span className="text-3xl font-black text-white">
+                        {activeOverall.is_absent ? 'Absent' : activeOverall.total_marks ?? 'N/A'}
+                      </span>
+                      {!activeOverall.is_absent && (
+                        <span className="text-sm font-semibold text-slate-400">
+                          / {activeOverall.max_total}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                )}
 
-            {/* Overall Stats Figures */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6">
-              <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60">
-                <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Total Marks</span>
-                <div className="flex items-baseline gap-1.5 mt-1">
-                  <span className="text-3xl font-black text-white">
-                    {student.overall.is_absent ? 'Absent' : student.overall.total_marks ?? 'N/A'}
-                  </span>
-                  {!student.overall.is_absent && (
-                    <span className="text-sm font-semibold text-slate-400">
-                      / {student.overall.max_total}
-                    </span>
-                  )}
-                </div>
-              </div>
+                {displaySettings.showPercentage && (
+                  <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60">
+                    <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Overall Percentage</span>
+                    <div className="mt-1">
+                      <span className="text-3xl font-black text-blue-400">
+                        {activeOverall.is_absent ? '—' : activeOverall.percentage || 'N/A'}
+                      </span>
+                    </div>
+                  </div>
+                )}
 
-              <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60">
-                <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Overall Percentage</span>
-                <div className="mt-1">
-                  <span className="text-3xl font-black text-blue-400">
-                    {student.overall.is_absent ? '—' : student.overall.percentage || 'N/A'}
-                  </span>
-                </div>
-              </div>
-
-              <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60">
-                <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Academic Standing</span>
-                <div className="mt-1 flex items-center gap-1.5 text-slate-200">
-                  <Sparkles className="w-4 h-4 text-amber-400" />
-                  <span className="text-sm font-bold">
-                    {student.overall.grade === 'A*'
-                      ? 'Distinction / Highest Honors'
-                      : student.overall.grade === 'A'
-                      ? 'Excellent Performance'
-                      : student.overall.grade === 'B'
-                      ? 'Very Good Standing'
-                      : student.overall.grade === 'C'
-                      ? 'Satisfactory'
-                      : student.overall.grade === 'D'
-                      ? 'Pass'
-                      : student.overall.is_absent
-                      ? 'Examination Absent'
-                      : 'Needs Improvement'}
-                  </span>
-                </div>
+                {displaySettings.showGrade && (
+                  <div className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700/60">
+                    <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Academic Standing</span>
+                    <div className="mt-1 flex items-center gap-1.5 text-slate-200">
+                      <Sparkles className="w-4 h-4 text-amber-400" />
+                      <span className="text-sm font-bold">
+                        {activeOverall.grade === 'A*'
+                          ? 'Distinction / Highest Honors'
+                          : activeOverall.grade === 'A'
+                          ? 'Excellent Performance'
+                          : activeOverall.grade === 'B'
+                          ? 'Very Good Standing'
+                          : activeOverall.grade === 'C'
+                          ? 'Satisfactory'
+                          : activeOverall.grade === 'D'
+                          ? 'Pass'
+                          : activeOverall.is_absent
+                          ? 'Examination Absent'
+                          : 'Needs Improvement'}
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>
-        </div>
+        )}
 
-        {/* Official Grading Scale Reference Table */}
-        <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm mb-8">
-          <h4 className="text-sm font-bold text-slate-900 mb-3 flex items-center gap-2">
-            <ShieldCheck className="w-4 h-4 text-blue-600" />
-            <span>School Grading Criteria Reference</span>
-          </h4>
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2 text-center text-xs">
-            <div className="p-2.5 rounded-xl bg-emerald-50 border border-emerald-200">
-              <span className="block font-black text-emerald-800 text-sm">A*</span>
-              <span className="text-emerald-700 font-semibold">95% – 100%</span>
-            </div>
-            <div className="p-2.5 rounded-xl bg-blue-50 border border-blue-200">
-              <span className="block font-black text-blue-800 text-sm">A</span>
-              <span className="text-blue-700 font-semibold">85% – 94%</span>
-            </div>
-            <div className="p-2.5 rounded-xl bg-cyan-50 border border-cyan-200">
-              <span className="block font-black text-cyan-800 text-sm">B</span>
-              <span className="text-cyan-700 font-semibold">75% – 84%</span>
-            </div>
-            <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-200">
-              <span className="block font-black text-amber-800 text-sm">C</span>
-              <span className="text-amber-700 font-semibold">65% – 74%</span>
-            </div>
-            <div className="p-2.5 rounded-xl bg-orange-50 border border-orange-200">
-              <span className="block font-black text-orange-800 text-sm">D</span>
-              <span className="text-orange-700 font-semibold">55% – 64%</span>
-            </div>
-            <div className="p-2.5 rounded-xl bg-rose-50 border border-rose-200">
-              <span className="block font-black text-rose-800 text-sm">E</span>
-              <span className="text-rose-700 font-semibold">40% – 54%</span>
-            </div>
-            <div className="p-2.5 rounded-xl bg-red-50 border border-red-200">
-              <span className="block font-black text-red-800 text-sm">F</span>
-              <span className="text-red-700 font-semibold">Below 40%</span>
+        {/* Official Grading Scale Reference Table (Visible if grades are enabled) */}
+        {displaySettings.showGrade && (
+          <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm mb-8">
+            <h4 className="text-sm font-bold text-slate-900 mb-3 flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-blue-600" />
+              <span>School Grading Criteria Reference</span>
+            </h4>
+            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2 text-center text-xs">
+              <div className="p-2.5 rounded-xl bg-emerald-50 border border-emerald-200">
+                <span className="block font-black text-emerald-800 text-sm">A*</span>
+                <span className="text-emerald-700 font-semibold">95% – 100%</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-blue-50 border border-blue-200">
+                <span className="block font-black text-blue-800 text-sm">A</span>
+                <span className="text-blue-700 font-semibold">85% – 94%</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-cyan-50 border border-cyan-200">
+                <span className="block font-black text-cyan-800 text-sm">B</span>
+                <span className="text-cyan-700 font-semibold">75% – 84%</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-200">
+                <span className="block font-black text-amber-800 text-sm">C</span>
+                <span className="text-amber-700 font-semibold">65% – 74%</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-orange-50 border border-orange-200">
+                <span className="block font-black text-orange-800 text-sm">D</span>
+                <span className="text-orange-700 font-semibold">55% – 64%</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-rose-50 border border-rose-200">
+                <span className="block font-black text-rose-800 text-sm">E</span>
+                <span className="text-rose-700 font-semibold">40% – 54%</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-red-50 border border-red-200">
+                <span className="block font-black text-red-800 text-sm">F</span>
+                <span className="text-red-700 font-semibold">Below 40%</span>
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
         {/* Print Signatures - Visible only on Print */}
         <div className="hidden print:block pt-12 mt-12 border-t border-slate-300">

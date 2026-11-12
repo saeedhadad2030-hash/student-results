@@ -18,6 +18,16 @@ export interface OverallResult {
   is_error: boolean;
 }
 
+export interface DisplaySettings {
+  isPublished: boolean;
+  showMarks: boolean;
+  showPercentage: boolean;
+  showGrade: boolean;
+  showOverall: boolean;
+  activeTerm: string;
+  availableTerms: string[];
+}
+
 export interface StudentRecord {
   id: string;                          // e.g. "Year1_1"
   roll_no: number;
@@ -36,6 +46,12 @@ export interface StudentRecord {
   collision_ids?: string[];
   subjects: SubjectResult[];
   overall: OverallResult;
+  terms?: {
+    [termName: string]: {
+      subjects: SubjectResult[];
+      overall: OverallResult;
+    };
+  };
   is_published: boolean;
   updated_at?: string;
 }

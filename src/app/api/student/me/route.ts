@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getCurrentStudent } from '@/lib/server/auth';
-import { getStudentById, isResultsPublished } from '@/lib/server/data-store';
+import { getStudentById, getDisplaySettings } from '@/lib/server/data-store';
 
 export const dynamic = 'force-dynamic';
 
@@ -11,7 +11,8 @@ export async function GET() {
       return NextResponse.json({ error: 'Unauthorized. Please login.' }, { status: 401 });
     }
 
-    if (!isResultsPublished()) {
+    const displaySettings = getDisplaySettings();
+    if (!displaySettings.isPublished) {
       return NextResponse.json(
         { error: 'Results are currently under review by school administration.' },
         { status: 403 }
@@ -23,7 +24,7 @@ export async function GET() {
       return NextResponse.json({ error: 'Student record not found.' }, { status: 404 });
     }
 
-    // Return only safe student-facing fields (English Name, Academic Year, Subjects, Overall)
+    // Return only safe student-facing fields with active display settings
     return NextResponse.json({
       student: {
         id: student.id,
@@ -32,7 +33,9 @@ export async function GET() {
         year: student.year,
         subjects: student.subjects,
         overall: student.overall,
+        terms: student.terms || {},
       },
+      displaySettings,
     });
   } catch (error) {
     console.error('Fetch student error:', error);

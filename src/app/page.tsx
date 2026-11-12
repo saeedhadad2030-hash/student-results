@@ -34,13 +34,13 @@ export default function LoginPage() {
       return;
     }
 
-    // Auto-prefix ips@ if the student just entered 5 digits
-    if (/^\d{4,5}$/.test(cleanCode)) {
+    // Auto-prefix ips@ if the student entered exactly 5 digits
+    if (/^\d{5}$/.test(cleanCode)) {
       cleanCode = `ips@${cleanCode}`;
     }
 
-    if (!cleanCode.startsWith('ips@')) {
-      setError('Invalid format. Code must be in the format ips@12345 (last 5 digits of National ID).');
+    if (!cleanCode.startsWith('ips@') || !/^ips@\d{5}$/.test(cleanCode)) {
+      setError('Invalid format. Code must be in the format ips@12345 (strictly the last 5 digits of National ID).');
       return;
     }
 

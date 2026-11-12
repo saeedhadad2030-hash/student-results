@@ -15,7 +15,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "Absent",
         "percentage": null,
         "grade": null,
@@ -40,7 +40,7 @@
     ],
     "overall": {
       "total_marks": "Absent",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": null,
       "grade": null,
       "is_absent": true,

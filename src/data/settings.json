@@ -1,0 +1,13 @@
+{
+  "isPublished": true,
+  "showMarks": true,
+  "showPercentage": true,
+  "showGrade": true,
+  "showOverall": true,
+  "activeTerm": "Mid-term Examination",
+  "availableTerms": [
+    "Mid-term Examination",
+    "Final Examination"
+  ]
+}
+

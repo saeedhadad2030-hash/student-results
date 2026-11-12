@@ -2969,10 +2969,10 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "29",
-        "percentage": "83%",
-        "grade": "B",
+        "max_marks": 40,
+        "mark": "34",
+        "percentage": "85%",
+        "grade": "A",
         "is_absent": false
       },
       {
@@ -2993,9 +2993,9 @@
       }
     ],
     "overall": {
-      "total_marks": "96",
-      "max_total": 120,
-      "percentage": "80%",
+      "total_marks": "101",
+      "max_total": 125,
+      "percentage": "81%",
       "grade": "B",
       "is_absent": false,
       "is_error": false
@@ -3030,8 +3030,8 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "35",
+        "max_marks": 40,
+        "mark": "40",
         "percentage": "100%",
         "grade": "A*",
         "is_absent": false
@@ -3054,8 +3054,8 @@
       }
     ],
     "overall": {
-      "total_marks": "118",
-      "max_total": 120,
+      "total_marks": "123",
+      "max_total": 125,
       "percentage": "98%",
       "grade": "A*",
       "is_absent": false,
@@ -3094,8 +3094,8 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "35",
+        "max_marks": 40,
+        "mark": "40",
         "percentage": "100%",
         "grade": "A*",
         "is_absent": false
@@ -3118,8 +3118,8 @@
       }
     ],
     "overall": {
-      "total_marks": "116",
-      "max_total": 120,
+      "total_marks": "121",
+      "max_total": 125,
       "percentage": "97%",
       "grade": "A*",
       "is_absent": false,
@@ -3155,10 +3155,10 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "33",
-        "percentage": "94%",
-        "grade": "A",
+        "max_marks": 40,
+        "mark": "38",
+        "percentage": "95%",
+        "grade": "A*",
         "is_absent": false
       },
       {
@@ -3179,9 +3179,9 @@
       }
     ],
     "overall": {
-      "total_marks": "112",
-      "max_total": 120,
-      "percentage": "93%",
+      "total_marks": "117",
+      "max_total": 125,
+      "percentage": "94%",
       "grade": "A",
       "is_absent": false,
       "is_error": false
@@ -3210,42 +3210,42 @@
         "subject": "English",
         "max_marks": 35,
         "mark": "Absent",
-        "percentage": "Absent",
-        "grade": "Absent",
+        "percentage": "-",
+        "grade": "-",
         "is_absent": true
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "Absent",
-        "percentage": "Absent",
-        "grade": "Absent",
+        "percentage": "-",
+        "grade": "-",
         "is_absent": true
       },
       {
         "subject": "Science",
         "max_marks": 35,
         "mark": "Absent",
-        "percentage": "Absent",
-        "grade": "Absent",
+        "percentage": "-",
+        "grade": "-",
         "is_absent": true
       },
       {
         "subject": "Arabic",
         "max_marks": 15,
         "mark": "Absent",
-        "percentage": "Absent",
-        "grade": "Absent",
+        "percentage": "-",
+        "grade": "-",
         "is_absent": true
       }
     ],
     "overall": {
-      "total_marks": "Absent",
-      "max_total": 120,
-      "percentage": "Absent",
-      "grade": "Absent",
+      "total_marks": "Not Available",
+      "max_total": 125,
+      "percentage": "-",
+      "grade": "-",
       "is_absent": true,
-      "is_error": true
+      "is_error": false
     },
     "is_published": true,
     "updated_at": "2025-02-15T12:00:00Z"
@@ -3277,10 +3277,10 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "33",
-        "percentage": "94%",
-        "grade": "A",
+        "max_marks": 40,
+        "mark": "38",
+        "percentage": "95%",
+        "grade": "A*",
         "is_absent": false
       },
       {
@@ -3301,8 +3301,8 @@
       }
     ],
     "overall": {
-      "total_marks": "109",
-      "max_total": 120,
+      "total_marks": "114",
+      "max_total": 125,
       "percentage": "91%",
       "grade": "A",
       "is_absent": false,
@@ -3338,10 +3338,10 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "26",
-        "percentage": "74%",
-        "grade": "C",
+        "max_marks": 40,
+        "mark": "31",
+        "percentage": "78%",
+        "grade": "B",
         "is_absent": false
       },
       {
@@ -3362,8 +3362,8 @@
       }
     ],
     "overall": {
-      "total_marks": "104",
-      "max_total": 120,
+      "total_marks": "109",
+      "max_total": 125,
       "percentage": "87%",
       "grade": "A",
       "is_absent": false,
@@ -3399,9 +3399,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "20",
-        "percentage": "57%",
+        "max_marks": 40,
+        "mark": "25",
+        "percentage": "63%",
         "grade": "D",
         "is_absent": false
       },
@@ -3423,9 +3423,9 @@
       }
     ],
     "overall": {
-      "total_marks": "91",
-      "max_total": 120,
-      "percentage": "76%",
+      "total_marks": "96",
+      "max_total": 125,
+      "percentage": "77%",
       "grade": "B",
       "is_absent": false,
       "is_error": false
@@ -3460,9 +3460,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "28",
-        "percentage": "80%",
+        "max_marks": 40,
+        "mark": "33",
+        "percentage": "83%",
         "grade": "B",
         "is_absent": false
       },
@@ -3484,8 +3484,8 @@
       }
     ],
     "overall": {
-      "total_marks": "99",
-      "max_total": 120,
+      "total_marks": "104",
+      "max_total": 125,
       "percentage": "83%",
       "grade": "B",
       "is_absent": false,
@@ -3521,9 +3521,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "31",
-        "percentage": "89%",
+        "max_marks": 40,
+        "mark": "36",
+        "percentage": "90%",
         "grade": "A",
         "is_absent": false
       },
@@ -3545,9 +3545,9 @@
       }
     ],
     "overall": {
-      "total_marks": "95",
-      "max_total": 120,
-      "percentage": "79%",
+      "total_marks": "100",
+      "max_total": 125,
+      "percentage": "80%",
       "grade": "B",
       "is_absent": false,
       "is_error": false
@@ -3582,9 +3582,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "30",
-        "percentage": "86%",
+        "max_marks": 40,
+        "mark": "35",
+        "percentage": "88%",
         "grade": "A",
         "is_absent": false
       },
@@ -3606,9 +3606,9 @@
       }
     ],
     "overall": {
-      "total_marks": "101",
-      "max_total": 120,
-      "percentage": "84%",
+      "total_marks": "106",
+      "max_total": 125,
+      "percentage": "85%",
       "grade": "B",
       "is_absent": false,
       "is_error": false
@@ -3646,9 +3646,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "27",
-        "percentage": "77%",
+        "max_marks": 40,
+        "mark": "32",
+        "percentage": "80%",
         "grade": "B",
         "is_absent": false
       },
@@ -3670,9 +3670,9 @@
       }
     ],
     "overall": {
-      "total_marks": "87",
-      "max_total": 120,
-      "percentage": "73%",
+      "total_marks": "92",
+      "max_total": 125,
+      "percentage": "74%",
       "grade": "C",
       "is_absent": false,
       "is_error": false
@@ -3707,9 +3707,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "34",
-        "percentage": "97%",
+        "max_marks": 40,
+        "mark": "39",
+        "percentage": "98%",
         "grade": "A*",
         "is_absent": false
       },
@@ -3731,8 +3731,8 @@
       }
     ],
     "overall": {
-      "total_marks": "110",
-      "max_total": 120,
+      "total_marks": "115",
+      "max_total": 125,
       "percentage": "92%",
       "grade": "A",
       "is_absent": false,
@@ -3768,9 +3768,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "32",
-        "percentage": "91%",
+        "max_marks": 40,
+        "mark": "37",
+        "percentage": "93%",
         "grade": "A",
         "is_absent": false
       },
@@ -3792,8 +3792,8 @@
       }
     ],
     "overall": {
-      "total_marks": "109",
-      "max_total": 120,
+      "total_marks": "114",
+      "max_total": 125,
       "percentage": "91%",
       "grade": "A",
       "is_absent": false,
@@ -3806,7 +3806,7 @@
     "id": "Year2_16",
     "roll_no": 16,
     "year": "Year 2",
-    "name_en": "Rose Hisham Mohamed Mansour Al-Maghlawi",
+    "name_en": "Rose Hisham Mohamed Mansour Al-Maghlowi",
     "name_ar": "روز هشام محمد منصورالمغلاوي",
     "gender": "أنثى",
     "national_id_hash": "e8f77bd87e19170fa491c8765c865bc6de1cfbc172c615155fe4042c0ab716c1",
@@ -3829,9 +3829,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "28",
-        "percentage": "80%",
+        "max_marks": 40,
+        "mark": "33",
+        "percentage": "83%",
         "grade": "B",
         "is_absent": false
       },
@@ -3853,8 +3853,8 @@
       }
     ],
     "overall": {
-      "total_marks": "98",
-      "max_total": 120,
+      "total_marks": "103",
+      "max_total": 125,
       "percentage": "82%",
       "grade": "B",
       "is_absent": false,
@@ -3890,9 +3890,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "34",
-        "percentage": "97%",
+        "max_marks": 40,
+        "mark": "39",
+        "percentage": "98%",
         "grade": "A*",
         "is_absent": false
       },
@@ -3914,8 +3914,8 @@
       }
     ],
     "overall": {
-      "total_marks": "114",
-      "max_total": 120,
+      "total_marks": "119",
+      "max_total": 125,
       "percentage": "95%",
       "grade": "A*",
       "is_absent": false,
@@ -3951,10 +3951,10 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "29",
-        "percentage": "83%",
-        "grade": "B",
+        "max_marks": 40,
+        "mark": "34",
+        "percentage": "85%",
+        "grade": "A",
         "is_absent": false
       },
       {
@@ -3975,10 +3975,10 @@
       }
     ],
     "overall": {
-      "total_marks": "89",
-      "max_total": 120,
-      "percentage": "74%",
-      "grade": "C",
+      "total_marks": "94",
+      "max_total": 125,
+      "percentage": "75%",
+      "grade": "B",
       "is_absent": false,
       "is_error": false
     },
@@ -4012,9 +4012,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "34",
-        "percentage": "97%",
+        "max_marks": 40,
+        "mark": "39",
+        "percentage": "98%",
         "grade": "A*",
         "is_absent": false
       },
@@ -4036,8 +4036,8 @@
       }
     ],
     "overall": {
-      "total_marks": "109",
-      "max_total": 120,
+      "total_marks": "114",
+      "max_total": 125,
       "percentage": "91%",
       "grade": "A",
       "is_absent": false,
@@ -4073,9 +4073,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "32",
-        "percentage": "91%",
+        "max_marks": 40,
+        "mark": "37",
+        "percentage": "93%",
         "grade": "A",
         "is_absent": false
       },
@@ -4097,8 +4097,8 @@
       }
     ],
     "overall": {
-      "total_marks": "111",
-      "max_total": 120,
+      "total_marks": "116",
+      "max_total": 125,
       "percentage": "93%",
       "grade": "A",
       "is_absent": false,
@@ -4134,9 +4134,9 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "30",
-        "percentage": "86%",
+        "max_marks": 40,
+        "mark": "35",
+        "percentage": "88%",
         "grade": "A",
         "is_absent": false
       },
@@ -4158,9 +4158,9 @@
       }
     ],
     "overall": {
-      "total_marks": "101",
-      "max_total": 120,
-      "percentage": "84%",
+      "total_marks": "106",
+      "max_total": 125,
+      "percentage": "85%",
       "grade": "B",
       "is_absent": false,
       "is_error": false
@@ -4195,8 +4195,8 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "35",
+        "max_marks": 40,
+        "mark": "40",
         "percentage": "100%",
         "grade": "A*",
         "is_absent": false
@@ -4219,8 +4219,8 @@
       }
     ],
     "overall": {
-      "total_marks": "118",
-      "max_total": 120,
+      "total_marks": "123",
+      "max_total": 125,
       "percentage": "98%",
       "grade": "A*",
       "is_absent": false,
@@ -4256,8 +4256,8 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
-        "mark": "35",
+        "max_marks": 40,
+        "mark": "40",
         "percentage": "100%",
         "grade": "A*",
         "is_absent": false
@@ -4280,8 +4280,8 @@
       }
     ],
     "overall": {
-      "total_marks": "118",
-      "max_total": 120,
+      "total_marks": "123",
+      "max_total": 125,
       "percentage": "98%",
       "grade": "A*",
       "is_absent": false,
@@ -4317,7 +4317,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "35.5",
         "percentage": "89%",
         "grade": "A",
@@ -4335,18 +4335,18 @@
         "subject": "Arabic",
         "max_marks": 15,
         "mark": "Absent",
-        "percentage": "Absent",
-        "grade": "Absent",
+        "percentage": "-",
+        "grade": "-",
         "is_absent": true
       }
     ],
     "overall": {
-      "total_marks": "Absent",
-      "max_total": 120,
-      "percentage": "Absent",
-      "grade": "Absent",
+      "total_marks": "Not Available",
+      "max_total": 125,
+      "percentage": "-",
+      "grade": "-",
       "is_absent": true,
-      "is_error": true
+      "is_error": false
     },
     "is_published": true,
     "updated_at": "2025-02-15T12:00:00Z"
@@ -4378,7 +4378,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "37.5",
         "percentage": "94%",
         "grade": "A",
@@ -4403,7 +4403,7 @@
     ],
     "overall": {
       "total_marks": "103.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "83%",
       "grade": "B",
       "is_absent": false,
@@ -4439,7 +4439,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "37",
         "percentage": "93%",
         "grade": "A",
@@ -4464,7 +4464,7 @@
     ],
     "overall": {
       "total_marks": "98.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "79%",
       "grade": "B",
       "is_absent": false,
@@ -4503,7 +4503,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "38",
         "percentage": "95%",
         "grade": "A*",
@@ -4528,7 +4528,7 @@
     ],
     "overall": {
       "total_marks": "116.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "93%",
       "grade": "A",
       "is_absent": false,
@@ -4564,7 +4564,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "38",
         "percentage": "95%",
         "grade": "A*",
@@ -4589,7 +4589,7 @@
     ],
     "overall": {
       "total_marks": "113",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "90%",
       "grade": "A",
       "is_absent": false,
@@ -4625,7 +4625,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "30.5",
         "percentage": "76%",
         "grade": "B",
@@ -4650,7 +4650,7 @@
     ],
     "overall": {
       "total_marks": "86.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "69%",
       "grade": "C",
       "is_absent": false,
@@ -4686,7 +4686,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "15.5",
         "percentage": "39%",
         "grade": "F",
@@ -4711,7 +4711,7 @@
     ],
     "overall": {
       "total_marks": "44",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "35%",
       "grade": "F",
       "is_absent": false,
@@ -4747,7 +4747,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "27",
         "percentage": "68%",
         "grade": "C",
@@ -4772,7 +4772,7 @@
     ],
     "overall": {
       "total_marks": "79",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "63%",
       "grade": "D",
       "is_absent": false,
@@ -4808,7 +4808,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "32",
         "percentage": "80%",
         "grade": "B",
@@ -4833,7 +4833,7 @@
     ],
     "overall": {
       "total_marks": "97",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "78%",
       "grade": "B",
       "is_absent": false,
@@ -4869,7 +4869,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "33",
         "percentage": "83%",
         "grade": "B",
@@ -4894,7 +4894,7 @@
     ],
     "overall": {
       "total_marks": "112",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "90%",
       "grade": "A",
       "is_absent": false,
@@ -4930,7 +4930,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "30.5",
         "percentage": "76%",
         "grade": "B",
@@ -4955,7 +4955,7 @@
     ],
     "overall": {
       "total_marks": "99",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "79%",
       "grade": "B",
       "is_absent": false,
@@ -4991,7 +4991,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "20",
         "percentage": "50%",
         "grade": "E",
@@ -5016,7 +5016,7 @@
     ],
     "overall": {
       "total_marks": "79",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "63%",
       "grade": "D",
       "is_absent": false,
@@ -5052,7 +5052,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "22.5",
         "percentage": "56%",
         "grade": "D",
@@ -5077,7 +5077,7 @@
     ],
     "overall": {
       "total_marks": "72",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "58%",
       "grade": "D",
       "is_absent": false,
@@ -5113,7 +5113,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "34",
         "percentage": "85%",
         "grade": "A",
@@ -5138,7 +5138,7 @@
     ],
     "overall": {
       "total_marks": "107",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "86%",
       "grade": "A",
       "is_absent": false,
@@ -5174,7 +5174,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "40",
         "percentage": "100%",
         "grade": "A*",
@@ -5199,7 +5199,7 @@
     ],
     "overall": {
       "total_marks": "114",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "91%",
       "grade": "A",
       "is_absent": false,
@@ -5235,7 +5235,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "34.5",
         "percentage": "86%",
         "grade": "A",
@@ -5260,7 +5260,7 @@
     ],
     "overall": {
       "total_marks": "113.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "91%",
       "grade": "A",
       "is_absent": false,
@@ -5296,7 +5296,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "40",
         "percentage": "100%",
         "grade": "A*",
@@ -5321,7 +5321,7 @@
     ],
     "overall": {
       "total_marks": "123",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "98%",
       "grade": "A*",
       "is_absent": false,
@@ -5357,7 +5357,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "33.5",
         "percentage": "84%",
         "grade": "B",
@@ -5382,7 +5382,7 @@
     ],
     "overall": {
       "total_marks": "108.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "87%",
       "grade": "A",
       "is_absent": false,
@@ -5418,7 +5418,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "36",
         "percentage": "90%",
         "grade": "A",
@@ -5443,7 +5443,7 @@
     ],
     "overall": {
       "total_marks": "107.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "86%",
       "grade": "A",
       "is_absent": false,
@@ -5479,7 +5479,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "28",
         "percentage": "70%",
         "grade": "C",
@@ -5504,7 +5504,7 @@
     ],
     "overall": {
       "total_marks": "91.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "73%",
       "grade": "C",
       "is_absent": false,
@@ -5543,7 +5543,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "36.5",
         "percentage": "91%",
         "grade": "A",
@@ -5568,7 +5568,7 @@
     ],
     "overall": {
       "total_marks": "113.5",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "91%",
       "grade": "A",
       "is_absent": false,
@@ -5604,7 +5604,7 @@
       },
       {
         "subject": "Maths",
-        "max_marks": 35,
+        "max_marks": 40,
         "mark": "39",
         "percentage": "98%",
         "grade": "A*",
@@ -5629,7 +5629,7 @@
     ],
     "overall": {
       "total_marks": "113",
-      "max_total": 120,
+      "max_total": 125,
       "percentage": "90%",
       "grade": "A",
       "is_absent": false,
